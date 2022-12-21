@@ -1,170 +1,18 @@
-[24-Apr-2022 15:44:46 UTC] PHP Warning:  odbc_connect(): SQL error: [Microsoft][SQL Server Native Client 11.0]Interfaces de Rede do SQL Server: Erro ao Localizar Servidor/Inst�ncia Especificado [xFFFFFFFF]. , SQL state 08001 in SQLConnect in C:\inetpub\wwwroot\Arvore de Causa e Efeito\arvore.php on line 6
-[24-Apr-2022 15:44:46 UTC] PHP Fatal error:  Uncaught TypeError: odbc_exec(): Argument #1 ($odbc) must be of type resource, bool given in C:\inetpub\wwwroot\Arvore de Causa e Efeito\arvore.php:620
-Stack trace:
-#0 C:\inetpub\wwwroot\Arvore de Causa e Efeito\arvore.php(620): odbc_exec(false, 'SELECT nome FRO...')
-#1 {main}
-  thrown in C:\inetpub\wwwroot\Arvore de Causa e Efeito\arvore.php on line 620
-[15-May-2022 20:11:01 UTC] PHP Warning:  odbc_connect(): SQL error: [Microsoft][SQL Server Native Client 11.0]Interfaces de Rede do SQL Server: Erro ao Localizar Servidor/Inst�ncia Especificado [xFFFFFFFF]. , SQL state 08001 in SQLConnect in C:\inetpub\wwwroot\Arvore de Causa e Efeito\arvore.php on line 6
-[15-May-2022 20:11:01 UTC] PHP Fatal error:  Uncaught TypeError: odbc_exec(): Argument #1 ($odbc) must be of type resource, bool given in C:\inetpub\wwwroot\Arvore de Causa e Efeito\arvore.php:620
-Stack trace:
-#0 C:\inetpub\wwwroot\Arvore de Causa e Efeito\arvore.php(620): odbc_exec(false, 'SELECT nome FRO...')
-#1 {main}
-  thrown in C:\inetpub\wwwroot\Arvore de Causa e Efeito\arvore.php on line 620
-[07-Jun-2022 05:05:24 UTC] PHP Warning:  odbc_connect(): SQL error: [Microsoft][SQL Server Native Client 11.0][SQL Server]N�o � poss�vel abrir o banco de dados &quot;diagrama&quot; solicitado pelo logon. Falha de logon., SQL state 37000 in SQLConnect in C:\inetpub\wwwroot\Projetos\Diagrama\arvore.php on line 6
-[07-Jun-2022 05:05:24 UTC] PHP Fatal error:  Uncaught TypeError: odbc_exec(): Argument #1 ($odbc) must be of type resource, bool given in C:\inetpub\wwwroot\Projetos\Diagrama\arvore.php:620
-Stack trace:
-#0 C:\inetpub\wwwroot\Projetos\Diagrama\arvore.php(620): odbc_exec(false, 'SELECT nome FRO...')
-#1 {main}
-  thrown in C:\inetpub\wwwroot\Projetos\Diagrama\arvore.php on line 620
-[07-Jun-2022 05:13:33 UTC] PHP Warning:  odbc_exec(): SQL error: [Microsoft][SQL Server Native Client 11.0][SQL Server]Nome de coluna 'col' inv�lido., SQL state S0022 in SQLExecDirect in C:\inetpub\wwwroot\Projetos\Diagrama\arvore.php on line 620
-[07-Jun-2022 05:13:33 UTC] PHP Fatal error:  Uncaught TypeError: odbc_fetch_row(): Argument #1 ($statement) must be of type resource, bool given in C:\inetpub\wwwroot\Projetos\Diagrama\arvore.php:621
-Stack trace:
-#0 C:\inetpub\wwwroot\Projetos\Diagrama\arvore.php(621): odbc_fetch_row(false)
-#1 {main}
-  thrown in C:\inetpub\wwwroot\Projetos\Diagrama\arvore.php on line 621
-[07-Jun-2022 05:14:12 UTC] PHP Warning:  odbc_exec(): SQL error: [Microsoft][SQL Server Native Client 11.0][SQL Server]Nome de coluna 'col' inv�lido., SQL state S0022 in SQLExecDirect in C:\inetpub\wwwroot\Projetos\Diagrama\arvore.php on line 620
-[07-Jun-2022 05:14:12 UTC] PHP Fatal error:  Uncaught TypeError: odbc_fetch_row(): Argument #1 ($statement) must be of type resource, bool given in C:\inetpub\wwwroot\Projetos\Diagrama\arvore.php:621
-Stack trace:
-#0 C:\inetpub\wwwroot\Projetos\Diagrama\arvore.php(621): odbc_fetch_row(false)
-#1 {main}
-  thrown in C:\inetpub\wwwroot\Projetos\Diagrama\arvore.php on line 621
-[07-Jun-2022 05:15:16 UTC] PHP Warning:  odbc_exec(): SQL error: [Microsoft][SQL Server Native Client 11.0][SQL Server]Nome de coluna 'col' inv�lido., SQL state S0022 in SQLExecDirect in C:\inetpub\wwwroot\Projetos\Diagrama\arvore.php on line 620
-[07-Jun-2022 05:15:16 UTC] PHP Fatal error:  Uncaught TypeError: odbc_fetch_row(): Argument #1 ($statement) must be of type resource, bool given in C:\inetpub\wwwroot\Projetos\Diagrama\arvore.php:621
-Stack trace:
-#0 C:\inetpub\wwwroot\Projetos\Diagrama\arvore.php(621): odbc_fetch_row(false)
-#1 {main}
-  thrown in C:\inetpub\wwwroot\Projetos\Diagrama\arvore.php on line 621
-[07-Jun-2022 05:15:36 UTC] PHP Warning:  Undefined variable $idarvore in C:\inetpub\wwwroot\Projetos\Diagrama\editarvore.php on line 60
-[07-Jun-2022 05:15:46 UTC] PHP Warning:  odbc_exec(): SQL error: [Microsoft][SQL Server Native Client 11.0][SQL Server]Nome de coluna 'col' inv�lido., SQL state S0022 in SQLExecDirect in C:\inetpub\wwwroot\Projetos\Diagrama\arvore.php on line 620
-[07-Jun-2022 05:15:46 UTC] PHP Fatal error:  Uncaught TypeError: odbc_fetch_row(): Argument #1 ($statement) must be of type resource, bool given in C:\inetpub\wwwroot\Projetos\Diagrama\arvore.php:621
-Stack trace:
-#0 C:\inetpub\wwwroot\Projetos\Diagrama\arvore.php(621): odbc_fetch_row(false)
-#1 {main}
-  thrown in C:\inetpub\wwwroot\Projetos\Diagrama\arvore.php on line 621
-[07-Jun-2022 05:16:06 UTC] PHP Warning:  odbc_connect(): SQL error: [Microsoft][SQL Server Native Client 11.0][SQL Server]Falha de logon do usu�rio 'sa'., SQL state 28000 in SQLConnect in C:\inetpub\wwwroot\Projetos\Diagrama\editelems.php on line 6
-[07-Jun-2022 05:16:06 UTC] PHP Warning:  Undefined variable $idelem in C:\inetpub\wwwroot\Projetos\Diagrama\editelems.php on line 63
-[07-Jun-2022 05:16:06 UTC] PHP Fatal error:  Uncaught TypeError: odbc_exec(): Argument #1 ($odbc) must be of type resource, bool given in C:\inetpub\wwwroot\Projetos\Diagrama\editelems.php:64
-Stack trace:
-#0 C:\inetpub\wwwroot\Projetos\Diagrama\editelems.php(64): odbc_exec(false, 'SELECT * FROM e...')
-#1 {main}
-  thrown in C:\inetpub\wwwroot\Projetos\Diagrama\editelems.php on line 64
-[07-Jun-2022 05:17:10 UTC] PHP Warning:  odbc_exec(): SQL error: [Microsoft][SQL Server Native Client 11.0][SQL Server]Nome de coluna 'col' inv�lido., SQL state S0022 in SQLExecDirect in C:\inetpub\wwwroot\Projetos\Diagrama\arvore.php on line 620
-[07-Jun-2022 05:17:10 UTC] PHP Fatal error:  Uncaught TypeError: odbc_fetch_row(): Argument #1 ($statement) must be of type resource, bool given in C:\inetpub\wwwroot\Projetos\Diagrama\arvore.php:621
-Stack trace:
-#0 C:\inetpub\wwwroot\Projetos\Diagrama\arvore.php(621): odbc_fetch_row(false)
-#1 {main}
-  thrown in C:\inetpub\wwwroot\Projetos\Diagrama\arvore.php on line 621
-[07-Jun-2022 05:17:13 UTC] PHP Warning:  odbc_exec(): SQL error: [Microsoft][SQL Server Native Client 11.0][SQL Server]Nome de coluna 'col' inv�lido., SQL state S0022 in SQLExecDirect in C:\inetpub\wwwroot\Projetos\Diagrama\arvore.php on line 620
-[07-Jun-2022 05:17:13 UTC] PHP Fatal error:  Uncaught TypeError: odbc_fetch_row(): Argument #1 ($statement) must be of type resource, bool given in C:\inetpub\wwwroot\Projetos\Diagrama\arvore.php:621
-Stack trace:
-#0 C:\inetpub\wwwroot\Projetos\Diagrama\arvore.php(621): odbc_fetch_row(false)
-#1 {main}
-  thrown in C:\inetpub\wwwroot\Projetos\Diagrama\arvore.php on line 621
-[07-Jun-2022 05:17:14 UTC] PHP Warning:  odbc_exec(): SQL error: [Microsoft][SQL Server Native Client 11.0][SQL Server]Nome de coluna 'col' inv�lido., SQL state S0022 in SQLExecDirect in C:\inetpub\wwwroot\Projetos\Diagrama\arvore.php on line 620
-[07-Jun-2022 05:17:14 UTC] PHP Fatal error:  Uncaught TypeError: odbc_fetch_row(): Argument #1 ($statement) must be of type resource, bool given in C:\inetpub\wwwroot\Projetos\Diagrama\arvore.php:621
-Stack trace:
-#0 C:\inetpub\wwwroot\Projetos\Diagrama\arvore.php(621): odbc_fetch_row(false)
-#1 {main}
-  thrown in C:\inetpub\wwwroot\Projetos\Diagrama\arvore.php on line 621
-[07-Jun-2022 05:17:15 UTC] PHP Warning:  odbc_exec(): SQL error: [Microsoft][SQL Server Native Client 11.0][SQL Server]Nome de coluna 'col' inv�lido., SQL state S0022 in SQLExecDirect in C:\inetpub\wwwroot\Projetos\Diagrama\arvore.php on line 620
-[07-Jun-2022 05:17:15 UTC] PHP Fatal error:  Uncaught TypeError: odbc_fetch_row(): Argument #1 ($statement) must be of type resource, bool given in C:\inetpub\wwwroot\Projetos\Diagrama\arvore.php:621
-Stack trace:
-#0 C:\inetpub\wwwroot\Projetos\Diagrama\arvore.php(621): odbc_fetch_row(false)
-#1 {main}
-  thrown in C:\inetpub\wwwroot\Projetos\Diagrama\arvore.php on line 621
-[07-Jun-2022 05:17:56 UTC] PHP Warning:  odbc_exec(): SQL error: [Microsoft][SQL Server Native Client 11.0][SQL Server]Nome de coluna 'col' inv�lido., SQL state S0022 in SQLExecDirect in C:\inetpub\wwwroot\Projetos\Diagrama\arvore.php on line 620
-[07-Jun-2022 05:17:56 UTC] PHP Fatal error:  Uncaught TypeError: odbc_fetch_row(): Argument #1 ($statement) must be of type resource, bool given in C:\inetpub\wwwroot\Projetos\Diagrama\arvore.php:621
-Stack trace:
-#0 C:\inetpub\wwwroot\Projetos\Diagrama\arvore.php(621): odbc_fetch_row(false)
-#1 {main}
-  thrown in C:\inetpub\wwwroot\Projetos\Diagrama\arvore.php on line 621
-[07-Jun-2022 05:18:05 UTC] PHP Warning:  odbc_exec(): SQL error: [Microsoft][SQL Server Native Client 11.0][SQL Server]Nome de coluna 'col' inv�lido., SQL state S0022 in SQLExecDirect in C:\inetpub\wwwroot\Projetos\Diagrama\arvore.php on line 620
-[07-Jun-2022 05:18:05 UTC] PHP Fatal error:  Uncaught TypeError: odbc_fetch_row(): Argument #1 ($statement) must be of type resource, bool given in C:\inetpub\wwwroot\Projetos\Diagrama\arvore.php:621
-Stack trace:
-#0 C:\inetpub\wwwroot\Projetos\Diagrama\arvore.php(621): odbc_fetch_row(false)
-#1 {main}
-  thrown in C:\inetpub\wwwroot\Projetos\Diagrama\arvore.php on line 621
-[07-Jun-2022 05:20:33 UTC] PHP Warning:  odbc_exec(): SQL error: [Microsoft][SQL Server Native Client 11.0][SQL Server]Nome de coluna 'col' inv�lido., SQL state S0022 in SQLExecDirect in C:\inetpub\wwwroot\Projetos\Diagrama\arvore.php on line 620
-[07-Jun-2022 05:20:33 UTC] PHP Fatal error:  Uncaught TypeError: odbc_fetch_row(): Argument #1 ($statement) must be of type resource, bool given in C:\inetpub\wwwroot\Projetos\Diagrama\arvore.php:621
-Stack trace:
-#0 C:\inetpub\wwwroot\Projetos\Diagrama\arvore.php(621): odbc_fetch_row(false)
-#1 {main}
-  thrown in C:\inetpub\wwwroot\Projetos\Diagrama\arvore.php on line 621
-[07-Jun-2022 05:21:35 UTC] PHP Warning:  odbc_exec(): SQL error: [Microsoft][SQL Server Native Client 11.0][SQL Server]Nome de coluna 'col' inv�lido., SQL state S0022 in SQLExecDirect in C:\inetpub\wwwroot\Projetos\Diagrama\arvore.php on line 620
-[07-Jun-2022 05:21:35 UTC] PHP Fatal error:  Uncaught TypeError: odbc_fetch_row(): Argument #1 ($statement) must be of type resource, bool given in C:\inetpub\wwwroot\Projetos\Diagrama\arvore.php:621
-Stack trace:
-#0 C:\inetpub\wwwroot\Projetos\Diagrama\arvore.php(621): odbc_fetch_row(false)
-#1 {main}
-  thrown in C:\inetpub\wwwroot\Projetos\Diagrama\arvore.php on line 621
-[07-Jun-2022 05:21:40 UTC] PHP Warning:  odbc_exec(): SQL error: [Microsoft][SQL Server Native Client 11.0][SQL Server]Nome de coluna 'col' inv�lido., SQL state S0022 in SQLExecDirect in C:\inetpub\wwwroot\Projetos\Diagrama\arvore.php on line 620
-[07-Jun-2022 05:21:40 UTC] PHP Fatal error:  Uncaught TypeError: odbc_fetch_row(): Argument #1 ($statement) must be of type resource, bool given in C:\inetpub\wwwroot\Projetos\Diagrama\arvore.php:621
-Stack trace:
-#0 C:\inetpub\wwwroot\Projetos\Diagrama\arvore.php(621): odbc_fetch_row(false)
-#1 {main}
-  thrown in C:\inetpub\wwwroot\Projetos\Diagrama\arvore.php on line 621
-[07-Jun-2022 05:21:42 UTC] PHP Warning:  odbc_exec(): SQL error: [Microsoft][SQL Server Native Client 11.0][SQL Server]Nome de coluna 'col' inv�lido., SQL state S0022 in SQLExecDirect in C:\inetpub\wwwroot\Projetos\Diagrama\arvore.php on line 620
-[07-Jun-2022 05:21:42 UTC] PHP Fatal error:  Uncaught TypeError: odbc_fetch_row(): Argument #1 ($statement) must be of type resource, bool given in C:\inetpub\wwwroot\Projetos\Diagrama\arvore.php:621
-Stack trace:
-#0 C:\inetpub\wwwroot\Projetos\Diagrama\arvore.php(621): odbc_fetch_row(false)
-#1 {main}
-  thrown in C:\inetpub\wwwroot\Projetos\Diagrama\arvore.php on line 621
-[07-Jun-2022 05:21:44 UTC] PHP Warning:  odbc_exec(): SQL error: [Microsoft][SQL Server Native Client 11.0][SQL Server]Nome de coluna 'col' inv�lido., SQL state S0022 in SQLExecDirect in C:\inetpub\wwwroot\Projetos\Diagrama\arvore.php on line 620
-[07-Jun-2022 05:21:44 UTC] PHP Fatal error:  Uncaught TypeError: odbc_fetch_row(): Argument #1 ($statement) must be of type resource, bool given in C:\inetpub\wwwroot\Projetos\Diagrama\arvore.php:621
-Stack trace:
-#0 C:\inetpub\wwwroot\Projetos\Diagrama\arvore.php(621): odbc_fetch_row(false)
-#1 {main}
-  thrown in C:\inetpub\wwwroot\Projetos\Diagrama\arvore.php on line 621
-[07-Jun-2022 05:22:38 UTC] PHP Warning:  odbc_exec(): SQL error: [Microsoft][SQL Server Native Client 11.0][SQL Server]Nome de coluna 'col' inv�lido., SQL state S0022 in SQLExecDirect in C:\inetpub\wwwroot\Projetos\Diagrama\arvore.php on line 315
-[07-Jun-2022 05:22:38 UTC] PHP Fatal error:  Uncaught TypeError: odbc_fetch_row(): Argument #1 ($statement) must be of type resource, bool given in C:\inetpub\wwwroot\Projetos\Diagrama\arvore.php:316
-Stack trace:
-#0 C:\inetpub\wwwroot\Projetos\Diagrama\arvore.php(316): odbc_fetch_row(false)
-#1 {main}
-  thrown in C:\inetpub\wwwroot\Projetos\Diagrama\arvore.php on line 316
-[07-Jun-2022 05:22:48 UTC] PHP Warning:  odbc_exec(): SQL error: [Microsoft][SQL Server Native Client 11.0][SQL Server]Nome de coluna 'col' inv�lido., SQL state S0022 in SQLExecDirect in C:\inetpub\wwwroot\Projetos\Diagrama\arvore.php on line 620
-[07-Jun-2022 05:22:48 UTC] PHP Fatal error:  Uncaught TypeError: odbc_fetch_row(): Argument #1 ($statement) must be of type resource, bool given in C:\inetpub\wwwroot\Projetos\Diagrama\arvore.php:621
-Stack trace:
-#0 C:\inetpub\wwwroot\Projetos\Diagrama\arvore.php(621): odbc_fetch_row(false)
-#1 {main}
-  thrown in C:\inetpub\wwwroot\Projetos\Diagrama\arvore.php on line 621
-[07-Jun-2022 05:23:19 UTC] PHP Warning:  odbc_exec(): SQL error: [Microsoft][SQL Server Native Client 11.0][SQL Server]Nome de coluna 'col' inv�lido., SQL state S0022 in SQLExecDirect in C:\inetpub\wwwroot\Projetos\Diagrama\arvore.php on line 619
-[07-Jun-2022 05:23:19 UTC] PHP Fatal error:  Uncaught TypeError: odbc_fetch_row(): Argument #1 ($statement) must be of type resource, bool given in C:\inetpub\wwwroot\Projetos\Diagrama\arvore.php:620
-Stack trace:
-#0 C:\inetpub\wwwroot\Projetos\Diagrama\arvore.php(620): odbc_fetch_row(false)
-#1 {main}
-  thrown in C:\inetpub\wwwroot\Projetos\Diagrama\arvore.php on line 620
-[07-Jun-2022 05:23:42 UTC] PHP Warning:  odbc_exec(): SQL error: [Microsoft][SQL Server Native Client 11.0][SQL Server]Nome de coluna 'col' inv�lido., SQL state S0022 in SQLExecDirect in C:\inetpub\wwwroot\Projetos\Diagrama\arvore.php on line 620
-[07-Jun-2022 05:23:42 UTC] PHP Fatal error:  Uncaught TypeError: odbc_fetch_row(): Argument #1 ($statement) must be of type resource, bool given in C:\inetpub\wwwroot\Projetos\Diagrama\arvore.php:621
-Stack trace:
-#0 C:\inetpub\wwwroot\Projetos\Diagrama\arvore.php(621): odbc_fetch_row(false)
-#1 {main}
-  thrown in C:\inetpub\wwwroot\Projetos\Diagrama\arvore.php on line 621
-[07-Jun-2022 05:24:03 UTC] PHP Warning:  odbc_exec(): SQL error: [Microsoft][SQL Server Native Client 11.0][SQL Server]Nome de coluna 'col' inv�lido., SQL state S0022 in SQLExecDirect in C:\inetpub\wwwroot\Projetos\Diagrama\arvore.php on line 619
-[07-Jun-2022 05:24:03 UTC] PHP Fatal error:  Uncaught TypeError: odbc_fetch_row(): Argument #1 ($statement) must be of type resource, bool given in C:\inetpub\wwwroot\Projetos\Diagrama\arvore.php:620
-Stack trace:
-#0 C:\inetpub\wwwroot\Projetos\Diagrama\arvore.php(620): odbc_fetch_row(false)
-#1 {main}
-  thrown in C:\inetpub\wwwroot\Projetos\Diagrama\arvore.php on line 620
-[07-Jun-2022 05:24:33 UTC] PHP Warning:  odbc_exec(): SQL error: [Microsoft][SQL Server Native Client 11.0][SQL Server]Nome de coluna 'col' inv�lido., SQL state S0022 in SQLExecDirect in C:\inetpub\wwwroot\Projetos\Diagrama\arvore.php on line 619
-[07-Jun-2022 05:24:33 UTC] PHP Fatal error:  Uncaught TypeError: odbc_fetch_row(): Argument #1 ($statement) must be of type resource, bool given in C:\inetpub\wwwroot\Projetos\Diagrama\arvore.php:620
-Stack trace:
-#0 C:\inetpub\wwwroot\Projetos\Diagrama\arvore.php(620): odbc_fetch_row(false)
-#1 {main}
-  thrown in C:\inetpub\wwwroot\Projetos\Diagrama\arvore.php on line 620
-[07-Jun-2022 05:24:50 UTC] PHP Warning:  odbc_exec(): SQL error: [Microsoft][SQL Server Native Client 11.0][SQL Server]Nome de coluna 'col' inv�lido., SQL state S0022 in SQLExecDirect in C:\inetpub\wwwroot\Projetos\Diagrama\arvore.php on line 619
-[07-Jun-2022 05:24:50 UTC] PHP Fatal error:  Uncaught TypeError: odbc_fetch_row(): Argument #1 ($statement) must be of type resource, bool given in C:\inetpub\wwwroot\Projetos\Diagrama\arvore.php:620
-Stack trace:
-#0 C:\inetpub\wwwroot\Projetos\Diagrama\arvore.php(620): odbc_fetch_row(false)
-#1 {main}
-  thrown in C:\inetpub\wwwroot\Projetos\Diagrama\arvore.php on line 620
-[07-Jun-2022 05:26:20 UTC] PHP Warning:  odbc_exec(): SQL error: [Microsoft][SQL Server Native Client 11.0][SQL Server]Nome de coluna 'col' inv�lido., SQL state S0022 in SQLExecDirect in C:\inetpub\wwwroot\Projetos\Diagrama\arvore.php on line 620
-[07-Jun-2022 05:26:20 UTC] PHP Fatal error:  Uncaught TypeError: odbc_fetch_row(): Argument #1 ($statement) must be of type resource, bool given in C:\inetpub\wwwroot\Projetos\Diagrama\arvore.php:621
-Stack trace:
-#0 C:\inetpub\wwwroot\Projetos\Diagrama\arvore.php(621): odbc_fetch_row(false)
-#1 {main}
-  thrown in C:\inetpub\wwwroot\Projetos\Diagrama\arvore.php on line 621
-[07-Jun-2022 05:39:35 UTC] PHP Warning:  odbc_connect(): SQL error: [Microsoft][SQL Server Native Client 11.0][SQL Server]Falha de logon do usu�rio 'sa'., SQL state 28000 in SQLConnect in C:\inetpub\wwwroot\Projetos\Diagrama\editelems.php on line 6
-[07-Jun-2022 05:39:35 UTC] PHP Fatal error:  Uncaught TypeError: odbc_exec(): Argument #1 ($odbc) must be of type resource, bool given in C:\inetpub\wwwroot\Projetos\Diagrama\editelems.php:64
-Stack trace:
-#0 C:\inetpub\wwwroot\Projetos\Diagrama\editelems.php(64): odbc_exec(false, 'SELECT * FROM e...')
-#1 {main}
-  thrown in C:\inetpub\wwwroot\Projetos\Diagrama\editelems.php on line 64
+[21-Dec-2022 07:53:01 UTC] PHP Warning:  Undefined array key "IDOco" in C:\inetpub\wwwroot\Diagrama-de-causa-e-efeito\colunas.php on line 6
+[21-Dec-2022 07:53:01 UTC] PHP Warning:  Undefined array key "IDOco" in C:\inetpub\wwwroot\Diagrama-de-causa-e-efeito\colunas.php on line 35
+[21-Dec-2022 07:53:01 UTC] PHP Warning:  Undefined array key "IDOco" in C:\inetpub\wwwroot\Diagrama-de-causa-e-efeito\colunas.php on line 64
+[21-Dec-2022 07:53:01 UTC] PHP Warning:  Undefined array key "IDOco" in C:\inetpub\wwwroot\Diagrama-de-causa-e-efeito\colunas.php on line 93
+[21-Dec-2022 07:53:01 UTC] PHP Warning:  Undefined array key "IDOco" in C:\inetpub\wwwroot\Diagrama-de-causa-e-efeito\colunas.php on line 122
+[21-Dec-2022 07:53:01 UTC] PHP Warning:  Undefined array key "IDOco" in C:\inetpub\wwwroot\Diagrama-de-causa-e-efeito\colunas.php on line 151
+[21-Dec-2022 07:53:01 UTC] PHP Warning:  Undefined array key "IDOco" in C:\inetpub\wwwroot\Diagrama-de-causa-e-efeito\colunas.php on line 180
+[21-Dec-2022 07:53:01 UTC] PHP Warning:  Undefined array key "IDOco" in C:\inetpub\wwwroot\Diagrama-de-causa-e-efeito\colunas.php on line 209
+[21-Dec-2022 07:53:01 UTC] PHP Warning:  Undefined array key "IDOco" in C:\inetpub\wwwroot\Diagrama-de-causa-e-efeito\colunas.php on line 238
+[21-Dec-2022 07:53:01 UTC] PHP Warning:  Undefined array key "IDOco" in C:\inetpub\wwwroot\Diagrama-de-causa-e-efeito\colunas.php on line 267
+[21-Dec-2022 07:53:33 UTC] PHP Warning:  Undefined array key "nome" in C:\inetpub\wwwroot\Diagrama-de-causa-e-efeito\enviaDados.php on line 10
+[21-Dec-2022 07:53:58 UTC] PHP Warning:  Undefined array key "nome" in C:\inetpub\wwwroot\Diagrama-de-causa-e-efeito\enviaDados.php on line 10
+[21-Dec-2022 07:53:58 UTC] PHP Notice:  session_start(): ps_files_cleanup_dir: opendir(C:\Windows\TEMP) failed: No error (0) in C:\inetpub\wwwroot\Diagrama-de-causa-e-efeito\bdarvore.php on line 2
+[21-Dec-2022 07:54:55 UTC] PHP Warning:  Undefined array key "nome" in C:\inetpub\wwwroot\Diagrama-de-causa-e-efeito\enviaDados.php on line 10
+[21-Dec-2022 07:54:55 UTC] PHP Warning:  odbc_exec(): SQL error: [Microsoft][SQL Server Native Client 11.0][SQL Server]Falha ao converter o varchar valor 'ligacao tres' para o tipo de dados int., SQL state 22005 in SQLExecDirect in C:\inetpub\wwwroot\Diagrama-de-causa-e-efeito\classes.php on line 21
+[21-Dec-2022 07:54:58 UTC] PHP Warning:  Undefined array key "nome" in C:\inetpub\wwwroot\Diagrama-de-causa-e-efeito\enviaDados.php on line 10
+[21-Dec-2022 07:55:05 UTC] PHP Warning:  Undefined array key "nome" in C:\inetpub\wwwroot\Diagrama-de-causa-e-efeito\enviaDados.php on line 10
+[21-Dec-2022 07:55:05 UTC] PHP Warning:  odbc_exec(): SQL error: [Microsoft][SQL Server Native Client 11.0][SQL Server]Falha ao converter o varchar valor 'Ligacao tres' para o tipo de dados int., SQL state 22005 in SQLExecDirect in C:\inetpub\wwwroot\Diagrama-de-causa-e-efeito\classes.php on line 21

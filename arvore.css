@@ -1,0 +1,55 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration:none;
+    list-style:none;
+    margin:0;
+    padding:0;
+}
+
+.arvore{
+    display:flex;
+    flex-direction:row;
+    padding:1%;
+    width:2500px;
+    margin:1%;
+}
+
+.coluna{
+    display:flex;
+    flex-direction:column;
+    background:#ececec;
+    padding:0.5%;
+    margin:0.5%;
+    width:300px;
+    height:1750px;
+}
+
+.linha{
+    border:solid;
+    padding:5%;
+    margin:1%;
+    height:160px;
+    word-break: break-all;
+    cursor:pointer; 
+}
+
+.coluna h3{
+    color:black;
+    cursor:pointer;
+    text-align:center;
+}
+
+.navArvore{
+    display:flex;
+    justify-content:center;
+    margin-top:1%;
+}
+
+.navArvore button{
+    color:white;
+    background:blueviolet;
+    border:none;
+    padding:0.5%;
+    cursor:pointer;
+    position:fixed;
+}
