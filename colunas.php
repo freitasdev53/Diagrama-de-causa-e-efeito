@@ -3,12 +3,15 @@
            ?>
            <!--COLUNA 1-->
            <?php
-           if($arvore->getColunas(1,$_SESSION["IDOco"])){
+           if(odbc_fetch_row($arvore->getColunas(1,$_SESSION["IDOco"]))){
+            $col = $arvore->getColunas(1,$_SESSION["IDOco"]);
+            $titulo = odbc_result($col,"NMColuna");
+            $identity = odbc_result($col,"ID");
            ?> 
-           <div class="coluna" data-id="1">
+           <div class="coluna" data-id="1" identity="<?=$identity?>">
                 <!--BOTÃO DE ADICIONAR LINHA-->
                 <h3>
-                 Efeito
+                 <?=$titulo?>
                 </h3>
                 <br>
                 <!--LINHAS-->
@@ -32,12 +35,15 @@
             ?>
             <!--COLUNA 2-->
             <?php
-           if($arvore->getColunas(2,$_SESSION["IDOco"])){
+           if(odbc_fetch_row($arvore->getColunas(2,$_SESSION["IDOco"]))){
+            $col = $arvore->getColunas(2,$_SESSION["IDOco"]);
+            $titulo = odbc_result($col,"NMColuna");
+            $identity = odbc_result($col,"ID");
            ?> 
-           <div class="coluna" data-id="2">
+           <div class="coluna" data-id="2" identity="<?=$identity?>">
                 <!--BOTÃO DE ADICIONAR LINHA-->
                 <h3>
-                    Efeito
+                    <?=$titulo?>
                 </h3>
                 <br>
                 <!--LINHAS-->
@@ -61,12 +67,15 @@
             ?>
             <!--COLUNA 3-->
             <?php
-           if($arvore->getColunas(3,$_SESSION["IDOco"])){
+           if(odbc_fetch_row($arvore->getColunas(3,$_SESSION["IDOco"]))){
+            $col = $arvore->getColunas(1,$_SESSION["IDOco"]);
+            $titulo = odbc_result($col,"NMColuna");
+            $identity = odbc_result($col,"ID");
            ?> 
-           <div class="coluna" data-id="3">
+           <div class="coluna" data-id="3" identity="<?=$identity?>">
                 <!--BOTÃO DE ADICIONAR LINHA-->
                 <h3>
-                    Efeito
+                    <?=$titulo?>
                 </h3>
                 <br>
                 <!--LINHAS-->
@@ -90,12 +99,15 @@
             ?>
             <!--COLUNA 4-->
             <?php
-           if($arvore->getColunas(4,$_SESSION["IDOco"])){
+           if(odbc_fetch_row($arvore->getColunas(4,$_SESSION["IDOco"]))){
+            $col = $arvore->getColunas(4,$_SESSION["IDOco"]);
+            $titulo = odbc_result($col,"NMColuna");
+            $identity = odbc_result($col,"ID");
            ?> 
-           <div class="coluna" data-id="4">
+           <div class="coluna" data-id="4" identity="<?=$identity?>">
                 <!--BOTÃO DE ADICIONAR LINHA-->
                 <h3>
-                    Efeito
+                    <?=$titulo?>
                 </h3>
                 <br>
                 <!--LINHAS-->
@@ -119,12 +131,15 @@
             ?>
             <!--COLUNA 5-->
             <?php
-           if($arvore->getColunas(5,$_SESSION["IDOco"])){
+           if(odbc_fetch_row($arvore->getColunas(5,$_SESSION["IDOco"]))){
+            $col = $arvore->getColunas(5,$_SESSION["IDOco"]);
+            $titulo = odbc_result($col,"NMColuna");
+            $identity = odbc_result($col,"ID");
            ?> 
-           <div class="coluna" data-id="5">
+           <div class="coluna" data-id="5" identity="<?=$identity?>">
                 <!--BOTÃO DE ADICIONAR LINHA-->
                 <h3>
-                    Efeito
+                    <?=$titulo?>
                 </h3>
                 <br>
                 <!--LINHAS-->
@@ -148,12 +163,15 @@
             ?>
             <!--COLUNA 6-->
             <?php
-           if($arvore->getColunas(6,$_SESSION["IDOco"])){
+           if(odbc_fetch_row($arvore->getColunas(6,$_SESSION["IDOco"]))){
+            $col = $arvore->getColunas(6,$_SESSION["IDOco"]);
+            $titulo = odbc_result($col,"NMColuna");
+            $identity = odbc_result($col,"ID");
            ?> 
-           <div class="coluna" data-id="6">
+           <div class="coluna" data-id="6" identity="<?=$identity?>">
                 <!--BOTÃO DE ADICIONAR LINHA-->
                 <h3>
-                    Efeito
+                    <?=$titulo?>
                 </h3>
                 <br>
                 <!--LINHAS-->
@@ -177,12 +195,15 @@
             ?>
             <!--COLUNA 7-->
             <?php
-           if($arvore->getColunas(7,$_SESSION["IDOco"])){
+           if(odbc_fetch_row($arvore->getColunas(7,$_SESSION["IDOco"]))){
+            $col = $arvore->getColunas(7,$_SESSION["IDOco"]);
+            $titulo = odbc_result($col,"NMColuna");
+            $identity = odbc_result($col,"ID");
            ?> 
-           <div class="coluna" data-id="7">
+           <div class="coluna" data-id="7" identity="<?=$identity?>">
                 <!--BOTÃO DE ADICIONAR LINHA-->
                 <h3>
-                    Efeito
+                    <?=$titulo?>
                 </h3>
                 <br>
                 <!--LINHAS-->
@@ -206,12 +227,15 @@
             ?>
             <!--COLUNA 8-->
             <?php
-           if($arvore->getColunas(8,$_SESSION["IDOco"])){
+           if(odbc_fetch_row($arvore->getColunas(8,$_SESSION["IDOco"]))){
+            $col = $arvore->getColunas(8,$_SESSION["IDOco"]);
+            $titulo = odbc_result($col,"NMColuna");
+            $identity = odbc_result($col,"ID");
            ?> 
-           <div class="coluna" data-id="8">
+           <div class="coluna" data-id="8" identity="<?=$identity?>">
                 <!--BOTÃO DE ADICIONAR LINHA-->
                 <h3>
-                    Efeito
+                    <?=$titulo?>
                 </h3>
                 <br>
                 <!--LINHAS-->
@@ -235,12 +259,15 @@
             ?>
             <!--COLUNA 9-->
             <?php
-           if($arvore->getColunas(9,$_SESSION["IDOco"])){
+           if(odbc_fetch_row($arvore->getColunas(9,$_SESSION["IDOco"]))){
+            $col = $arvore->getColunas(9,$_SESSION["IDOco"]);
+            $titulo = odbc_result($col,"NMColuna");
+            $identity = odbc_result($col,"ID");
            ?> 
-           <div class="coluna" data-id="9">
+           <div class="coluna" data-id="9" identity="<?=$identity?>">
                 <!--BOTÃO DE ADICIONAR LINHA-->
                 <h3>
-                    Efeito
+                    <?=$titulo?>
                 </h3>
                 <br>
                 <!--LINHAS-->
@@ -264,12 +291,15 @@
             ?>
             <!--COLUNA 10-->
             <?php
-           if($arvore->getColunas(10,$_SESSION["IDOco"])){
+           if(odbc_fetch_row($arvore->getColunas(10,$_SESSION["IDOco"]))){
+            $col = $arvore->getColunas(10,$_SESSION["IDOco"]);
+            $titulo = odbc_result($col,"NMColuna");
+            $identity = odbc_result($col,"ID");
            ?> 
-           <div class="coluna" data-id="10">
+           <div class="coluna" data-id="10" identity="<?=$identity?>">
                 <!--BOTÃO DE ADICIONAR LINHA-->
                 <h3>
-                    Efeito
+                    <?=$titulo?>
                 </h3>
                 <br>
                 <!--LINHAS-->
@@ -291,3 +321,6 @@
             <?php
            }
             ?>
+            <script>
+                $(".coluna:first-child h3").text("Efeito")
+            </script>

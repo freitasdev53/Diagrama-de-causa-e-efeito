@@ -1,0 +1,23 @@
+//FUNÇÃO QUE ATUALIZA A TABELA EM TEMPO REAL
+
+ function listarDados(pgAtual,qtPagina,pesquisa,order){ 
+     $.ajax({
+        url: "views/listas/tabelaEmpresas.php", 
+        async: true,
+        data : {
+          paginaAtual       : pgAtual,
+             quantidadePagina  : qtPagina,
+            pesquisa          : pesquisa,
+             order             : order
+         }
+    }).done(function (data) { 
+        //a = true;
+        $(".listarDados").html(data); 
+        var quantidadePaginas = $("#quantidadeEmpresas",data).val()
+
+        setTimeout(listarDados(),2000);
+
+
+    });
+}
+

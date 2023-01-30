@@ -8,7 +8,8 @@ switch($acao){
         $dados = array();
         $dados = [
             "NMColuna" => $_POST["nome"],
-            "NUColuna" => $_POST["numero"]
+            "NUColuna" => $_POST["numero"],
+            "ID"       => $_POST['IDColuna']
         ];
         $arvore->salvaColuna($dados,$IDOcorrencia);
     break;

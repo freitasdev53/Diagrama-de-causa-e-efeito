@@ -12,10 +12,10 @@ jQuery(function(){
         $(".bt_adicionar_coluna").on("click",function(){
             $("#ModalSalvaColuna").modal("show");
         })
-        $(".bt_editar_nome").on("click",function(e){
-            e.preventDefault()
-            $("#ModalSalvaColuna").modal("show");
-        })
+        // $(".bt_editar_nome").on("click",function(e){
+        //     e.preventDefault()
+        //     $("#ModalSalvaColuna").modal("show");
+        // })
         $(".bt_adiciona_linha").on("click",function(e){
             e.preventDefault()
             $("#ModalSalvaLinha").modal("show");
@@ -40,7 +40,6 @@ jQuery(function(){
     }
 
 
-
    function listarDados(){ 
         $.ajax({
            url: "colunas.php", 
@@ -55,36 +54,68 @@ jQuery(function(){
 
    function adicionaLinha(){
     $(".coluna h3").on("click",function(){
+        //DADOS PRE CARREGADOS
         $("#ModalOptionsColuna").modal("show");
-            var NUColuna = $(this).parent(".coluna").attr("data-id")
-            $(".bt_salvar_linha").on("click",function(){
-                formLinha(NUColuna)
-            })
-            $(".bt_excluir_coluna").on("click",function(){
-                excluirColuna(NUColuna);
-            })
+        var NUColuna = $(this).parent(".coluna").attr("data-id")
+        $(".bt_excluir_coluna").on("click",function(){
+            excluirColuna(NUColuna);
+        })
+        $(".numeroColuna").hide()
+        //PERGUNTA SE E A PRIMEIRA COLUNA
+        if($(this).parent().is(":first-child")){
+            $("#ModalOptionsColuna .bt_editar_nome").hide()
+            // $(this).text("Efeito")
+        }else{
+            $("#ModalOptionsColuna .bt-editar-nome").show()
+            var IDColuna = $(this).parent(".coluna").attr("identity")
+            $("input[name=IDColuna]").val(IDColuna)
+            $("input[name=nomeColuna]").val($(this).text().trim())
+        }
+
+        $(".bt_salvar_linha").on("click",function(){
+            formLinha(NUColuna)
+        })
+
+        //
         })
    }
+
+   $("#ModalSalvaColuna").on("show.bs.modal",function(){
+        if($(".coluna").length == 0){
+            $("#ModalOptionsColuna .bt_editar_nome").hide()
+            $("#ModalSalvaColuna .efeitoColuna").hide()
+        }else{
+            $("#ModalOptionsColuna .bt_editar_nome").show()
+            $("#ModalSalvaColuna .efeitoColuna").show()
+            $("#ModalSalvaColuna .numeroColuna").show()
+        }
+   })
 
    function adicionaColuna(){
     
     $(".bt_salvar_coluna").on("click",function(){
-        $("#ModalSalvaLinha").modal("show");
+        // $("#ModalSalvaLinha").modal("show");
         var NUColuna = $(this).parent(".coluna").attr("data-id")
+        var IDCol = $("input[name=IDColuna]").val()
         if(!NUColuna){
-            numero = $("input[name=numeroColuna]").val();
+            numero = $("select[name=numeroColuna]").val();
         }else{
             numero = "";
         }
-        // alert(numero)
-        // return false
+        if($(".coluna").length > 0){
+            if($("input[name=nomeColuna]").val() == ""){
+                alert("Primeiro insira o nome de uma coluna")
+                return false
+            }
+        }
         $.ajax({
             url : "enviaDados.php",
             method : "POST",
             data : {
                 acao : "Coluna",
                 nome : $("input[name=nomeColuna]").val(),
-                numero  : numero
+                numero  : numero,
+                IDColuna : IDCol
         }
         }).done(function(){
             $("#ModalSalvaColuna").modal("hide");
@@ -92,9 +123,14 @@ jQuery(function(){
             listarDados();
         })
     })
+
+    $(".bt_editar_nome").on("click",function(e){
+        e.preventDefault()
+        var modal = "#ModalSalvaColuna";
+        $(modal).modal("show")
+    })
         
    }
-
     function editaLinha(){
         $(".linha").on("click",function(){
             $("#ModalOptionsLinha").modal("show");
@@ -146,6 +182,12 @@ jQuery(function(){
     }
 
     function formLinha(NUColuna){
+
+        if($("textarea[name=NMConteudo]").val() == ""){
+            alert("Primeiro preencha a linha")
+            return false
+        }
+
         $.ajax({
             url : "enviaDados.php",
             method : "POST",
@@ -162,6 +204,5 @@ jQuery(function(){
             listarDados();
         })
     }
-
     //FIM DO JQUERY
 })

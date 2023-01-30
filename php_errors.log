@@ -1,18 +1,392 @@
-[21-Dec-2022 07:53:01 UTC] PHP Warning:  Undefined array key "IDOco" in C:\inetpub\wwwroot\Diagrama-de-causa-e-efeito\colunas.php on line 6
-[21-Dec-2022 07:53:01 UTC] PHP Warning:  Undefined array key "IDOco" in C:\inetpub\wwwroot\Diagrama-de-causa-e-efeito\colunas.php on line 35
-[21-Dec-2022 07:53:01 UTC] PHP Warning:  Undefined array key "IDOco" in C:\inetpub\wwwroot\Diagrama-de-causa-e-efeito\colunas.php on line 64
-[21-Dec-2022 07:53:01 UTC] PHP Warning:  Undefined array key "IDOco" in C:\inetpub\wwwroot\Diagrama-de-causa-e-efeito\colunas.php on line 93
-[21-Dec-2022 07:53:01 UTC] PHP Warning:  Undefined array key "IDOco" in C:\inetpub\wwwroot\Diagrama-de-causa-e-efeito\colunas.php on line 122
-[21-Dec-2022 07:53:01 UTC] PHP Warning:  Undefined array key "IDOco" in C:\inetpub\wwwroot\Diagrama-de-causa-e-efeito\colunas.php on line 151
-[21-Dec-2022 07:53:01 UTC] PHP Warning:  Undefined array key "IDOco" in C:\inetpub\wwwroot\Diagrama-de-causa-e-efeito\colunas.php on line 180
-[21-Dec-2022 07:53:01 UTC] PHP Warning:  Undefined array key "IDOco" in C:\inetpub\wwwroot\Diagrama-de-causa-e-efeito\colunas.php on line 209
-[21-Dec-2022 07:53:01 UTC] PHP Warning:  Undefined array key "IDOco" in C:\inetpub\wwwroot\Diagrama-de-causa-e-efeito\colunas.php on line 238
-[21-Dec-2022 07:53:01 UTC] PHP Warning:  Undefined array key "IDOco" in C:\inetpub\wwwroot\Diagrama-de-causa-e-efeito\colunas.php on line 267
-[21-Dec-2022 07:53:33 UTC] PHP Warning:  Undefined array key "nome" in C:\inetpub\wwwroot\Diagrama-de-causa-e-efeito\enviaDados.php on line 10
-[21-Dec-2022 07:53:58 UTC] PHP Warning:  Undefined array key "nome" in C:\inetpub\wwwroot\Diagrama-de-causa-e-efeito\enviaDados.php on line 10
-[21-Dec-2022 07:53:58 UTC] PHP Notice:  session_start(): ps_files_cleanup_dir: opendir(C:\Windows\TEMP) failed: No error (0) in C:\inetpub\wwwroot\Diagrama-de-causa-e-efeito\bdarvore.php on line 2
-[21-Dec-2022 07:54:55 UTC] PHP Warning:  Undefined array key "nome" in C:\inetpub\wwwroot\Diagrama-de-causa-e-efeito\enviaDados.php on line 10
-[21-Dec-2022 07:54:55 UTC] PHP Warning:  odbc_exec(): SQL error: [Microsoft][SQL Server Native Client 11.0][SQL Server]Falha ao converter o varchar valor 'ligacao tres' para o tipo de dados int., SQL state 22005 in SQLExecDirect in C:\inetpub\wwwroot\Diagrama-de-causa-e-efeito\classes.php on line 21
-[21-Dec-2022 07:54:58 UTC] PHP Warning:  Undefined array key "nome" in C:\inetpub\wwwroot\Diagrama-de-causa-e-efeito\enviaDados.php on line 10
-[21-Dec-2022 07:55:05 UTC] PHP Warning:  Undefined array key "nome" in C:\inetpub\wwwroot\Diagrama-de-causa-e-efeito\enviaDados.php on line 10
-[21-Dec-2022 07:55:05 UTC] PHP Warning:  odbc_exec(): SQL error: [Microsoft][SQL Server Native Client 11.0][SQL Server]Falha ao converter o varchar valor 'Ligacao tres' para o tipo de dados int., SQL state 22005 in SQLExecDirect in C:\inetpub\wwwroot\Diagrama-de-causa-e-efeito\classes.php on line 21
+[27-Dec-2022 04:07:17 UTC] PHP Warning:  Undefined array key "IDOco" in C:\inetpub\wwwroot\ClickJSL\novaarvore\colunas.php on line 6
+[27-Dec-2022 04:07:17 UTC] PHP Warning:  Undefined array key "IDOco" in C:\inetpub\wwwroot\ClickJSL\novaarvore\colunas.php on line 35
+[27-Dec-2022 04:07:17 UTC] PHP Warning:  Undefined array key "IDOco" in C:\inetpub\wwwroot\ClickJSL\novaarvore\colunas.php on line 64
+[27-Dec-2022 04:07:17 UTC] PHP Warning:  Undefined array key "IDOco" in C:\inetpub\wwwroot\ClickJSL\novaarvore\colunas.php on line 93
+[27-Dec-2022 04:07:17 UTC] PHP Warning:  Undefined array key "IDOco" in C:\inetpub\wwwroot\ClickJSL\novaarvore\colunas.php on line 122
+[27-Dec-2022 04:07:17 UTC] PHP Warning:  Undefined array key "IDOco" in C:\inetpub\wwwroot\ClickJSL\novaarvore\colunas.php on line 151
+[27-Dec-2022 04:07:17 UTC] PHP Warning:  Undefined array key "IDOco" in C:\inetpub\wwwroot\ClickJSL\novaarvore\colunas.php on line 180
+[27-Dec-2022 04:07:17 UTC] PHP Warning:  Undefined array key "IDOco" in C:\inetpub\wwwroot\ClickJSL\novaarvore\colunas.php on line 209
+[27-Dec-2022 04:07:17 UTC] PHP Warning:  Undefined array key "IDOco" in C:\inetpub\wwwroot\ClickJSL\novaarvore\colunas.php on line 238
+[27-Dec-2022 04:07:17 UTC] PHP Warning:  Undefined array key "IDOco" in C:\inetpub\wwwroot\ClickJSL\novaarvore\colunas.php on line 267
+[24-Jan-2023 17:23:09 UTC] PHP Warning:  session_start(): open(C:\Windows\TEMP\sess_sc4ojqihvnbhhmg0rlmfglhtp3, O_RDWR) failed: Permission denied (13) in C:\inetpub\wwwroot\ClickJSL\novaarvore\bdarvore.php on line 2
+[24-Jan-2023 17:23:09 UTC] PHP Warning:  session_start(): Failed to read session data: files (path: ) in C:\inetpub\wwwroot\ClickJSL\novaarvore\bdarvore.php on line 2
+[24-Jan-2023 17:23:09 UTC] PHP Warning:  session_start(): open(C:\Windows\TEMP\sess_sc4ojqihvnbhhmg0rlmfglhtp3, O_RDWR) failed: Permission denied (13) in C:\inetpub\wwwroot\ClickJSL\novaarvore\bdarvore.php on line 2
+[24-Jan-2023 17:23:09 UTC] PHP Warning:  session_start(): Failed to read session data: files (path: ) in C:\inetpub\wwwroot\ClickJSL\novaarvore\bdarvore.php on line 2
+[24-Jan-2023 17:23:09 UTC] PHP Warning:  Undefined array key "IDOco" in C:\inetpub\wwwroot\ClickJSL\novaarvore\colunas.php on line 6
+[24-Jan-2023 17:23:09 UTC] PHP Warning:  Undefined array key "IDOco" in C:\inetpub\wwwroot\ClickJSL\novaarvore\colunas.php on line 35
+[24-Jan-2023 17:23:09 UTC] PHP Warning:  Undefined array key "IDOco" in C:\inetpub\wwwroot\ClickJSL\novaarvore\colunas.php on line 64
+[24-Jan-2023 17:23:09 UTC] PHP Warning:  Undefined array key "IDOco" in C:\inetpub\wwwroot\ClickJSL\novaarvore\colunas.php on line 93
+[24-Jan-2023 17:23:09 UTC] PHP Warning:  Undefined array key "IDOco" in C:\inetpub\wwwroot\ClickJSL\novaarvore\colunas.php on line 122
+[24-Jan-2023 17:23:09 UTC] PHP Warning:  Undefined array key "IDOco" in C:\inetpub\wwwroot\ClickJSL\novaarvore\colunas.php on line 151
+[24-Jan-2023 17:23:09 UTC] PHP Warning:  Undefined array key "IDOco" in C:\inetpub\wwwroot\ClickJSL\novaarvore\colunas.php on line 180
+[24-Jan-2023 17:23:09 UTC] PHP Warning:  Undefined array key "IDOco" in C:\inetpub\wwwroot\ClickJSL\novaarvore\colunas.php on line 209
+[24-Jan-2023 17:23:09 UTC] PHP Warning:  Undefined array key "IDOco" in C:\inetpub\wwwroot\ClickJSL\novaarvore\colunas.php on line 238
+[24-Jan-2023 17:23:09 UTC] PHP Warning:  Undefined array key "IDOco" in C:\inetpub\wwwroot\ClickJSL\novaarvore\colunas.php on line 267
+[24-Jan-2023 17:47:33 UTC] PHP Warning:  Undefined array key "nome" in C:\inetpub\wwwroot\ClickJSL\novaarvore\enviaDados.php on line 10
+[24-Jan-2023 17:51:35 UTC] PHP Warning:  Undefined array key "nome" in C:\inetpub\wwwroot\ClickJSL\novaarvore\enviaDados.php on line 10
+[24-Jan-2023 17:51:38 UTC] PHP Warning:  Undefined array key "nome" in C:\inetpub\wwwroot\ClickJSL\novaarvore\enviaDados.php on line 10
+[24-Jan-2023 17:55:57 UTC] PHP Warning:  Undefined array key "nome" in C:\inetpub\wwwroot\ClickJSL\novaarvore\enviaDados.php on line 10
+[24-Jan-2023 17:56:00 UTC] PHP Warning:  Undefined array key "nome" in C:\inetpub\wwwroot\ClickJSL\novaarvore\enviaDados.php on line 10
+[24-Jan-2023 18:18:29 UTC] PHP Warning:  Undefined array key "IDOco" in C:\inetpub\wwwroot\ClickJSL\novaarvore\colunas.php on line 6
+[24-Jan-2023 18:18:29 UTC] PHP Warning:  Undefined array key "IDOco" in C:\inetpub\wwwroot\ClickJSL\novaarvore\colunas.php on line 35
+[24-Jan-2023 18:18:29 UTC] PHP Warning:  Undefined array key "IDOco" in C:\inetpub\wwwroot\ClickJSL\novaarvore\colunas.php on line 64
+[24-Jan-2023 18:18:29 UTC] PHP Warning:  Undefined array key "IDOco" in C:\inetpub\wwwroot\ClickJSL\novaarvore\colunas.php on line 93
+[24-Jan-2023 18:18:29 UTC] PHP Warning:  Undefined array key "IDOco" in C:\inetpub\wwwroot\ClickJSL\novaarvore\colunas.php on line 122
+[24-Jan-2023 18:18:29 UTC] PHP Warning:  Undefined array key "IDOco" in C:\inetpub\wwwroot\ClickJSL\novaarvore\colunas.php on line 151
+[24-Jan-2023 18:18:29 UTC] PHP Warning:  Undefined array key "IDOco" in C:\inetpub\wwwroot\ClickJSL\novaarvore\colunas.php on line 180
+[24-Jan-2023 18:18:29 UTC] PHP Warning:  Undefined array key "IDOco" in C:\inetpub\wwwroot\ClickJSL\novaarvore\colunas.php on line 209
+[24-Jan-2023 18:18:29 UTC] PHP Warning:  Undefined array key "IDOco" in C:\inetpub\wwwroot\ClickJSL\novaarvore\colunas.php on line 238
+[24-Jan-2023 18:18:29 UTC] PHP Warning:  Undefined array key "IDOco" in C:\inetpub\wwwroot\ClickJSL\novaarvore\colunas.php on line 267
+[24-Jan-2023 18:25:01 UTC] PHP Warning:  Undefined array key "nome" in C:\inetpub\wwwroot\ClickJSL\novaarvore\enviaDados.php on line 10
+[24-Jan-2023 18:25:06 UTC] PHP Warning:  Undefined array key "nome" in C:\inetpub\wwwroot\ClickJSL\novaarvore\enviaDados.php on line 10
+[24-Jan-2023 18:25:12 UTC] PHP Warning:  Undefined array key "nome" in C:\inetpub\wwwroot\ClickJSL\novaarvore\enviaDados.php on line 10
+[24-Jan-2023 18:43:15 UTC] PHP Warning:  Undefined array key "IDOco" in C:\inetpub\wwwroot\ClickJSL\novaarvore\colunas.php on line 6
+[24-Jan-2023 18:43:15 UTC] PHP Warning:  Undefined array key "IDOco" in C:\inetpub\wwwroot\ClickJSL\novaarvore\colunas.php on line 35
+[24-Jan-2023 18:43:15 UTC] PHP Warning:  Undefined array key "IDOco" in C:\inetpub\wwwroot\ClickJSL\novaarvore\colunas.php on line 64
+[24-Jan-2023 18:43:15 UTC] PHP Warning:  Undefined array key "IDOco" in C:\inetpub\wwwroot\ClickJSL\novaarvore\colunas.php on line 93
+[24-Jan-2023 18:43:15 UTC] PHP Warning:  Undefined array key "IDOco" in C:\inetpub\wwwroot\ClickJSL\novaarvore\colunas.php on line 122
+[24-Jan-2023 18:43:15 UTC] PHP Warning:  Undefined array key "IDOco" in C:\inetpub\wwwroot\ClickJSL\novaarvore\colunas.php on line 151
+[24-Jan-2023 18:43:15 UTC] PHP Warning:  Undefined array key "IDOco" in C:\inetpub\wwwroot\ClickJSL\novaarvore\colunas.php on line 180
+[24-Jan-2023 18:43:15 UTC] PHP Warning:  Undefined array key "IDOco" in C:\inetpub\wwwroot\ClickJSL\novaarvore\colunas.php on line 209
+[24-Jan-2023 18:43:15 UTC] PHP Warning:  Undefined array key "IDOco" in C:\inetpub\wwwroot\ClickJSL\novaarvore\colunas.php on line 238
+[24-Jan-2023 18:43:15 UTC] PHP Warning:  Undefined array key "IDOco" in C:\inetpub\wwwroot\ClickJSL\novaarvore\colunas.php on line 267
+[24-Jan-2023 18:43:23 UTC] PHP Warning:  Undefined variable $c1 in C:\inetpub\wwwroot\ClickJSL\novaarvore\colunas.php on line 11
+[24-Jan-2023 18:43:23 UTC] PHP Fatal error:  Uncaught TypeError: odbc_result(): Argument #1 ($statement) must be of type resource, null given in C:\inetpub\wwwroot\ClickJSL\novaarvore\colunas.php:11
+Stack trace:
+#0 C:\inetpub\wwwroot\ClickJSL\novaarvore\colunas.php(11): odbc_result(NULL, 'NMColuna')
+#1 {main}
+  thrown in C:\inetpub\wwwroot\ClickJSL\novaarvore\colunas.php on line 11
+[24-Jan-2023 18:43:48 UTC] PHP Warning:  Undefined variable $c1 in C:\inetpub\wwwroot\ClickJSL\novaarvore\colunas.php on line 40
+[24-Jan-2023 18:43:48 UTC] PHP Fatal error:  Uncaught TypeError: odbc_result(): Argument #1 ($statement) must be of type resource, null given in C:\inetpub\wwwroot\ClickJSL\novaarvore\colunas.php:40
+Stack trace:
+#0 C:\inetpub\wwwroot\ClickJSL\novaarvore\colunas.php(40): odbc_result(NULL, 'NMColuna')
+#1 {main}
+  thrown in C:\inetpub\wwwroot\ClickJSL\novaarvore\colunas.php on line 40
+[24-Jan-2023 18:43:48 UTC] PHP Warning:  Undefined variable $c1 in C:\inetpub\wwwroot\ClickJSL\novaarvore\colunas.php on line 40
+[24-Jan-2023 18:43:48 UTC] PHP Fatal error:  Uncaught TypeError: odbc_result(): Argument #1 ($statement) must be of type resource, null given in C:\inetpub\wwwroot\ClickJSL\novaarvore\colunas.php:40
+Stack trace:
+#0 C:\inetpub\wwwroot\ClickJSL\novaarvore\colunas.php(40): odbc_result(NULL, 'NMColuna')
+#1 {main}
+  thrown in C:\inetpub\wwwroot\ClickJSL\novaarvore\colunas.php on line 40
+[24-Jan-2023 18:43:50 UTC] PHP Warning:  Undefined variable $c1 in C:\inetpub\wwwroot\ClickJSL\novaarvore\colunas.php on line 40
+[24-Jan-2023 18:43:50 UTC] PHP Fatal error:  Uncaught TypeError: odbc_result(): Argument #1 ($statement) must be of type resource, null given in C:\inetpub\wwwroot\ClickJSL\novaarvore\colunas.php:40
+Stack trace:
+#0 C:\inetpub\wwwroot\ClickJSL\novaarvore\colunas.php(40): odbc_result(NULL, 'NMColuna')
+#1 {main}
+  thrown in C:\inetpub\wwwroot\ClickJSL\novaarvore\colunas.php on line 40
+[24-Jan-2023 18:45:30 UTC] PHP Warning:  Undefined array key "nome" in C:\inetpub\wwwroot\ClickJSL\novaarvore\enviaDados.php on line 10
+[24-Jan-2023 18:45:30 UTC] PHP Warning:  Undefined variable $c1 in C:\inetpub\wwwroot\ClickJSL\novaarvore\colunas.php on line 11
+[24-Jan-2023 18:45:30 UTC] PHP Fatal error:  Uncaught TypeError: odbc_result(): Argument #1 ($statement) must be of type resource, null given in C:\inetpub\wwwroot\ClickJSL\novaarvore\colunas.php:11
+Stack trace:
+#0 C:\inetpub\wwwroot\ClickJSL\novaarvore\colunas.php(11): odbc_result(NULL, 'NMColuna')
+#1 {main}
+  thrown in C:\inetpub\wwwroot\ClickJSL\novaarvore\colunas.php on line 11
+[24-Jan-2023 18:45:30 UTC] PHP Warning:  Undefined variable $c1 in C:\inetpub\wwwroot\ClickJSL\novaarvore\colunas.php on line 11
+[24-Jan-2023 18:45:30 UTC] PHP Fatal error:  Uncaught TypeError: odbc_result(): Argument #1 ($statement) must be of type resource, null given in C:\inetpub\wwwroot\ClickJSL\novaarvore\colunas.php:11
+Stack trace:
+#0 C:\inetpub\wwwroot\ClickJSL\novaarvore\colunas.php(11): odbc_result(NULL, 'NMColuna')
+#1 {main}
+  thrown in C:\inetpub\wwwroot\ClickJSL\novaarvore\colunas.php on line 11
+[24-Jan-2023 18:48:24 UTC] PHP Warning:  odbc_result(): Field NMColuna not found in C:\inetpub\wwwroot\ClickJSL\novaarvore\colunas.php on line 12
+[24-Jan-2023 18:50:46 UTC] PHP Warning:  Undefined variable $c1 in C:\inetpub\wwwroot\ClickJSL\novaarvore\colunas.php on line 11
+[24-Jan-2023 18:50:46 UTC] PHP Fatal error:  Uncaught TypeError: odbc_result(): Argument #1 ($statement) must be of type resource, null given in C:\inetpub\wwwroot\ClickJSL\novaarvore\colunas.php:11
+Stack trace:
+#0 C:\inetpub\wwwroot\ClickJSL\novaarvore\colunas.php(11): odbc_result(NULL, 'NMColuna')
+#1 {main}
+  thrown in C:\inetpub\wwwroot\ClickJSL\novaarvore\colunas.php on line 11
+[24-Jan-2023 18:55:30 UTC] PHP Fatal error:  Uncaught TypeError: odbc_fetch_row(): Argument #1 ($statement) must be of type resource, bool given in C:\inetpub\wwwroot\ClickJSL\novaarvore\colunas.php:8
+Stack trace:
+#0 C:\inetpub\wwwroot\ClickJSL\novaarvore\colunas.php(8): odbc_fetch_row(true)
+#1 {main}
+  thrown in C:\inetpub\wwwroot\ClickJSL\novaarvore\colunas.php on line 8
+[24-Jan-2023 18:56:33 UTC] PHP Fatal error:  Uncaught TypeError: odbc_fetch_row(): Argument #1 ($statement) must be of type resource, bool given in C:\inetpub\wwwroot\ClickJSL\novaarvore\colunas.php:8
+Stack trace:
+#0 C:\inetpub\wwwroot\ClickJSL\novaarvore\colunas.php(8): odbc_fetch_row(true)
+#1 {main}
+  thrown in C:\inetpub\wwwroot\ClickJSL\novaarvore\colunas.php on line 8
+[24-Jan-2023 18:57:46 UTC] PHP Warning:  Undefined variable $c1 in C:\inetpub\wwwroot\ClickJSL\novaarvore\colunas.php on line 9
+[24-Jan-2023 18:57:46 UTC] PHP Fatal error:  Uncaught TypeError: odbc_result(): Argument #1 ($statement) must be of type resource, null given in C:\inetpub\wwwroot\ClickJSL\novaarvore\colunas.php:9
+Stack trace:
+#0 C:\inetpub\wwwroot\ClickJSL\novaarvore\colunas.php(9): odbc_result(NULL, 'NMColuna')
+#1 {main}
+  thrown in C:\inetpub\wwwroot\ClickJSL\novaarvore\colunas.php on line 9
+[24-Jan-2023 18:57:59 UTC] PHP Fatal error:  Uncaught TypeError: odbc_result(): Argument #1 ($statement) must be of type resource, bool given in C:\inetpub\wwwroot\ClickJSL\novaarvore\colunas.php:9
+Stack trace:
+#0 C:\inetpub\wwwroot\ClickJSL\novaarvore\colunas.php(9): odbc_result(true, 'NMColuna')
+#1 {main}
+  thrown in C:\inetpub\wwwroot\ClickJSL\novaarvore\colunas.php on line 9
+[24-Jan-2023 18:58:16 UTC] PHP Fatal error:  Uncaught TypeError: odbc_result(): Argument #1 ($statement) must be of type resource, bool given in C:\inetpub\wwwroot\ClickJSL\novaarvore\colunas.php:8
+Stack trace:
+#0 C:\inetpub\wwwroot\ClickJSL\novaarvore\colunas.php(8): odbc_result(true, 'NMColuna')
+#1 {main}
+  thrown in C:\inetpub\wwwroot\ClickJSL\novaarvore\colunas.php on line 8
+[24-Jan-2023 18:58:44 UTC] PHP Fatal error:  Uncaught TypeError: odbc_result(): Argument #1 ($statement) must be of type resource, bool given in C:\inetpub\wwwroot\ClickJSL\novaarvore\colunas.php:9
+Stack trace:
+#0 C:\inetpub\wwwroot\ClickJSL\novaarvore\colunas.php(9): odbc_result(true, 'NMColuna')
+#1 {main}
+  thrown in C:\inetpub\wwwroot\ClickJSL\novaarvore\colunas.php on line 9
+[24-Jan-2023 18:59:24 UTC] PHP Fatal error:  Uncaught TypeError: odbc_result(): Argument #1 ($statement) must be of type resource, bool given in C:\inetpub\wwwroot\ClickJSL\novaarvore\colunas.php:9
+Stack trace:
+#0 C:\inetpub\wwwroot\ClickJSL\novaarvore\colunas.php(9): odbc_result(true, 'NMColuna')
+#1 {main}
+  thrown in C:\inetpub\wwwroot\ClickJSL\novaarvore\colunas.php on line 9
+[24-Jan-2023 19:00:06 UTC] PHP Warning:  Undefined variable $c1 in C:\inetpub\wwwroot\ClickJSL\novaarvore\colunas.php on line 15
+[24-Jan-2023 19:00:06 UTC] PHP Fatal error:  Uncaught TypeError: odbc_result(): Argument #1 ($statement) must be of type resource, null given in C:\inetpub\wwwroot\ClickJSL\novaarvore\colunas.php:15
+Stack trace:
+#0 C:\inetpub\wwwroot\ClickJSL\novaarvore\colunas.php(15): odbc_result(NULL, 'NMColuna')
+#1 {main}
+  thrown in C:\inetpub\wwwroot\ClickJSL\novaarvore\colunas.php on line 15
+[24-Jan-2023 19:00:36 UTC] PHP Warning:  odbc_result(): Field NMColuna not found in C:\inetpub\wwwroot\ClickJSL\novaarvore\colunas.php on line 44
+[24-Jan-2023 19:00:36 UTC] PHP Warning:  odbc_result(): Field NMColuna not found in C:\inetpub\wwwroot\ClickJSL\novaarvore\colunas.php on line 73
+[24-Jan-2023 19:00:36 UTC] PHP Warning:  odbc_result(): Field NMColuna not found in C:\inetpub\wwwroot\ClickJSL\novaarvore\colunas.php on line 102
+[24-Jan-2023 19:00:36 UTC] PHP Warning:  odbc_result(): Field NMColuna not found in C:\inetpub\wwwroot\ClickJSL\novaarvore\colunas.php on line 131
+[24-Jan-2023 19:00:36 UTC] PHP Warning:  odbc_result(): Field NMColuna not found in C:\inetpub\wwwroot\ClickJSL\novaarvore\colunas.php on line 160
+[24-Jan-2023 19:00:36 UTC] PHP Warning:  odbc_result(): Field NMColuna not found in C:\inetpub\wwwroot\ClickJSL\novaarvore\colunas.php on line 189
+[24-Jan-2023 19:00:36 UTC] PHP Warning:  odbc_result(): Field NMColuna not found in C:\inetpub\wwwroot\ClickJSL\novaarvore\colunas.php on line 218
+[24-Jan-2023 19:00:36 UTC] PHP Warning:  odbc_result(): Field NMColuna not found in C:\inetpub\wwwroot\ClickJSL\novaarvore\colunas.php on line 247
+[24-Jan-2023 19:00:36 UTC] PHP Warning:  odbc_result(): Field NMColuna not found in C:\inetpub\wwwroot\ClickJSL\novaarvore\colunas.php on line 276
+[24-Jan-2023 19:01:05 UTC] PHP Warning:  odbc_result(): Field NMColuna not found in C:\inetpub\wwwroot\ClickJSL\novaarvore\colunas.php on line 73
+[24-Jan-2023 19:01:05 UTC] PHP Warning:  odbc_result(): Field NMColuna not found in C:\inetpub\wwwroot\ClickJSL\novaarvore\colunas.php on line 102
+[24-Jan-2023 19:01:05 UTC] PHP Warning:  odbc_result(): Field NMColuna not found in C:\inetpub\wwwroot\ClickJSL\novaarvore\colunas.php on line 131
+[24-Jan-2023 19:01:05 UTC] PHP Warning:  odbc_result(): Field NMColuna not found in C:\inetpub\wwwroot\ClickJSL\novaarvore\colunas.php on line 160
+[24-Jan-2023 19:01:05 UTC] PHP Warning:  odbc_result(): Field NMColuna not found in C:\inetpub\wwwroot\ClickJSL\novaarvore\colunas.php on line 189
+[24-Jan-2023 19:01:05 UTC] PHP Warning:  odbc_result(): Field NMColuna not found in C:\inetpub\wwwroot\ClickJSL\novaarvore\colunas.php on line 218
+[24-Jan-2023 19:01:05 UTC] PHP Warning:  odbc_result(): Field NMColuna not found in C:\inetpub\wwwroot\ClickJSL\novaarvore\colunas.php on line 247
+[24-Jan-2023 19:01:05 UTC] PHP Warning:  odbc_result(): Field NMColuna not found in C:\inetpub\wwwroot\ClickJSL\novaarvore\colunas.php on line 276
+[24-Jan-2023 19:03:41 UTC] PHP Warning:  odbc_result(): Field NMColuna not found in C:\inetpub\wwwroot\ClickJSL\novaarvore\colunas.php on line 73
+[24-Jan-2023 19:03:41 UTC] PHP Warning:  odbc_result(): Field NMColuna not found in C:\inetpub\wwwroot\ClickJSL\novaarvore\colunas.php on line 102
+[24-Jan-2023 19:03:41 UTC] PHP Warning:  odbc_result(): Field NMColuna not found in C:\inetpub\wwwroot\ClickJSL\novaarvore\colunas.php on line 131
+[24-Jan-2023 19:03:41 UTC] PHP Warning:  odbc_result(): Field NMColuna not found in C:\inetpub\wwwroot\ClickJSL\novaarvore\colunas.php on line 160
+[24-Jan-2023 19:03:41 UTC] PHP Warning:  odbc_result(): Field NMColuna not found in C:\inetpub\wwwroot\ClickJSL\novaarvore\colunas.php on line 189
+[24-Jan-2023 19:03:41 UTC] PHP Warning:  odbc_result(): Field NMColuna not found in C:\inetpub\wwwroot\ClickJSL\novaarvore\colunas.php on line 218
+[24-Jan-2023 19:03:41 UTC] PHP Warning:  odbc_result(): Field NMColuna not found in C:\inetpub\wwwroot\ClickJSL\novaarvore\colunas.php on line 247
+[24-Jan-2023 19:03:41 UTC] PHP Warning:  odbc_result(): Field NMColuna not found in C:\inetpub\wwwroot\ClickJSL\novaarvore\colunas.php on line 276
+[24-Jan-2023 19:05:30 UTC] PHP Warning:  odbc_result(): Field NMColuna not found in C:\inetpub\wwwroot\ClickJSL\novaarvore\colunas.php on line 77
+[24-Jan-2023 19:05:30 UTC] PHP Warning:  odbc_result(): Field NMColuna not found in C:\inetpub\wwwroot\ClickJSL\novaarvore\colunas.php on line 106
+[24-Jan-2023 19:05:30 UTC] PHP Warning:  odbc_result(): Field NMColuna not found in C:\inetpub\wwwroot\ClickJSL\novaarvore\colunas.php on line 135
+[24-Jan-2023 19:05:30 UTC] PHP Warning:  odbc_result(): Field NMColuna not found in C:\inetpub\wwwroot\ClickJSL\novaarvore\colunas.php on line 164
+[24-Jan-2023 19:05:30 UTC] PHP Warning:  odbc_result(): Field NMColuna not found in C:\inetpub\wwwroot\ClickJSL\novaarvore\colunas.php on line 193
+[24-Jan-2023 19:05:30 UTC] PHP Warning:  odbc_result(): Field NMColuna not found in C:\inetpub\wwwroot\ClickJSL\novaarvore\colunas.php on line 222
+[24-Jan-2023 19:05:30 UTC] PHP Warning:  odbc_result(): Field NMColuna not found in C:\inetpub\wwwroot\ClickJSL\novaarvore\colunas.php on line 251
+[24-Jan-2023 19:05:30 UTC] PHP Warning:  odbc_result(): Field NMColuna not found in C:\inetpub\wwwroot\ClickJSL\novaarvore\colunas.php on line 280
+[24-Jan-2023 19:07:41 UTC] PHP Warning:  odbc_result(): Field NMColuna not found in C:\inetpub\wwwroot\ClickJSL\novaarvore\colunas.php on line 110
+[24-Jan-2023 19:07:41 UTC] PHP Warning:  odbc_result(): Field NMColuna not found in C:\inetpub\wwwroot\ClickJSL\novaarvore\colunas.php on line 139
+[24-Jan-2023 19:07:41 UTC] PHP Warning:  odbc_result(): Field NMColuna not found in C:\inetpub\wwwroot\ClickJSL\novaarvore\colunas.php on line 168
+[24-Jan-2023 19:07:41 UTC] PHP Warning:  odbc_result(): Field NMColuna not found in C:\inetpub\wwwroot\ClickJSL\novaarvore\colunas.php on line 197
+[24-Jan-2023 19:07:41 UTC] PHP Warning:  odbc_result(): Field NMColuna not found in C:\inetpub\wwwroot\ClickJSL\novaarvore\colunas.php on line 226
+[24-Jan-2023 19:07:41 UTC] PHP Warning:  odbc_result(): Field NMColuna not found in C:\inetpub\wwwroot\ClickJSL\novaarvore\colunas.php on line 255
+[24-Jan-2023 19:07:41 UTC] PHP Warning:  odbc_result(): Field NMColuna not found in C:\inetpub\wwwroot\ClickJSL\novaarvore\colunas.php on line 284
+[24-Jan-2023 19:07:54 UTC] PHP Warning:  odbc_result(): Field NMColuna not found in C:\inetpub\wwwroot\ClickJSL\novaarvore\colunas.php on line 110
+[24-Jan-2023 19:07:54 UTC] PHP Warning:  odbc_result(): Field NMColuna not found in C:\inetpub\wwwroot\ClickJSL\novaarvore\colunas.php on line 139
+[24-Jan-2023 19:07:54 UTC] PHP Warning:  odbc_result(): Field NMColuna not found in C:\inetpub\wwwroot\ClickJSL\novaarvore\colunas.php on line 168
+[24-Jan-2023 19:07:54 UTC] PHP Warning:  odbc_result(): Field NMColuna not found in C:\inetpub\wwwroot\ClickJSL\novaarvore\colunas.php on line 197
+[24-Jan-2023 19:07:54 UTC] PHP Warning:  odbc_result(): Field NMColuna not found in C:\inetpub\wwwroot\ClickJSL\novaarvore\colunas.php on line 226
+[24-Jan-2023 19:07:54 UTC] PHP Warning:  odbc_result(): Field NMColuna not found in C:\inetpub\wwwroot\ClickJSL\novaarvore\colunas.php on line 255
+[24-Jan-2023 19:07:54 UTC] PHP Warning:  odbc_result(): Field NMColuna not found in C:\inetpub\wwwroot\ClickJSL\novaarvore\colunas.php on line 284
+[24-Jan-2023 19:08:10 UTC] PHP Warning:  Undefined variable $titulo3 in C:\inetpub\wwwroot\ClickJSL\novaarvore\colunas.php on line 81
+[24-Jan-2023 19:08:10 UTC] PHP Warning:  odbc_result(): Field NMColuna not found in C:\inetpub\wwwroot\ClickJSL\novaarvore\colunas.php on line 110
+[24-Jan-2023 19:08:10 UTC] PHP Warning:  odbc_result(): Field NMColuna not found in C:\inetpub\wwwroot\ClickJSL\novaarvore\colunas.php on line 139
+[24-Jan-2023 19:08:10 UTC] PHP Warning:  odbc_result(): Field NMColuna not found in C:\inetpub\wwwroot\ClickJSL\novaarvore\colunas.php on line 168
+[24-Jan-2023 19:08:10 UTC] PHP Warning:  odbc_result(): Field NMColuna not found in C:\inetpub\wwwroot\ClickJSL\novaarvore\colunas.php on line 197
+[24-Jan-2023 19:08:10 UTC] PHP Warning:  odbc_result(): Field NMColuna not found in C:\inetpub\wwwroot\ClickJSL\novaarvore\colunas.php on line 226
+[24-Jan-2023 19:08:10 UTC] PHP Warning:  odbc_result(): Field NMColuna not found in C:\inetpub\wwwroot\ClickJSL\novaarvore\colunas.php on line 255
+[24-Jan-2023 19:08:10 UTC] PHP Warning:  odbc_result(): Field NMColuna not found in C:\inetpub\wwwroot\ClickJSL\novaarvore\colunas.php on line 284
+[24-Jan-2023 19:08:29 UTC] PHP Warning:  Undefined variable $titulo2 in C:\inetpub\wwwroot\ClickJSL\novaarvore\colunas.php on line 48
+[24-Jan-2023 19:08:29 UTC] PHP Warning:  Undefined variable $titulo3 in C:\inetpub\wwwroot\ClickJSL\novaarvore\colunas.php on line 81
+[24-Jan-2023 19:08:29 UTC] PHP Warning:  odbc_result(): Field NMColuna not found in C:\inetpub\wwwroot\ClickJSL\novaarvore\colunas.php on line 110
+[24-Jan-2023 19:08:29 UTC] PHP Warning:  odbc_result(): Field NMColuna not found in C:\inetpub\wwwroot\ClickJSL\novaarvore\colunas.php on line 139
+[24-Jan-2023 19:08:29 UTC] PHP Warning:  odbc_result(): Field NMColuna not found in C:\inetpub\wwwroot\ClickJSL\novaarvore\colunas.php on line 168
+[24-Jan-2023 19:08:29 UTC] PHP Warning:  odbc_result(): Field NMColuna not found in C:\inetpub\wwwroot\ClickJSL\novaarvore\colunas.php on line 197
+[24-Jan-2023 19:08:29 UTC] PHP Warning:  odbc_result(): Field NMColuna not found in C:\inetpub\wwwroot\ClickJSL\novaarvore\colunas.php on line 226
+[24-Jan-2023 19:08:29 UTC] PHP Warning:  odbc_result(): Field NMColuna not found in C:\inetpub\wwwroot\ClickJSL\novaarvore\colunas.php on line 255
+[24-Jan-2023 19:08:29 UTC] PHP Warning:  odbc_result(): Field NMColuna not found in C:\inetpub\wwwroot\ClickJSL\novaarvore\colunas.php on line 284
+[24-Jan-2023 19:09:12 UTC] PHP Warning:  Undefined variable $titulo2 in C:\inetpub\wwwroot\ClickJSL\novaarvore\colunas.php on line 48
+[24-Jan-2023 19:09:12 UTC] PHP Warning:  Undefined variable $titulo3 in C:\inetpub\wwwroot\ClickJSL\novaarvore\colunas.php on line 81
+[24-Jan-2023 19:09:12 UTC] PHP Warning:  odbc_result(): Field NMColuna not found in C:\inetpub\wwwroot\ClickJSL\novaarvore\colunas.php on line 110
+[24-Jan-2023 19:09:12 UTC] PHP Warning:  odbc_result(): Field NMColuna not found in C:\inetpub\wwwroot\ClickJSL\novaarvore\colunas.php on line 139
+[24-Jan-2023 19:09:12 UTC] PHP Warning:  odbc_result(): Field NMColuna not found in C:\inetpub\wwwroot\ClickJSL\novaarvore\colunas.php on line 168
+[24-Jan-2023 19:09:12 UTC] PHP Warning:  odbc_result(): Field NMColuna not found in C:\inetpub\wwwroot\ClickJSL\novaarvore\colunas.php on line 197
+[24-Jan-2023 19:09:12 UTC] PHP Warning:  odbc_result(): Field NMColuna not found in C:\inetpub\wwwroot\ClickJSL\novaarvore\colunas.php on line 226
+[24-Jan-2023 19:09:12 UTC] PHP Warning:  odbc_result(): Field NMColuna not found in C:\inetpub\wwwroot\ClickJSL\novaarvore\colunas.php on line 255
+[24-Jan-2023 19:09:12 UTC] PHP Warning:  odbc_result(): Field NMColuna not found in C:\inetpub\wwwroot\ClickJSL\novaarvore\colunas.php on line 284
+[24-Jan-2023 19:09:27 UTC] PHP Fatal error:  Uncaught TypeError: odbc_fetch_row(): Argument #1 ($statement) must be of type resource, bool given in C:\inetpub\wwwroot\ClickJSL\novaarvore\colunas.php:8
+Stack trace:
+#0 C:\inetpub\wwwroot\ClickJSL\novaarvore\colunas.php(8): odbc_fetch_row(true)
+#1 {main}
+  thrown in C:\inetpub\wwwroot\ClickJSL\novaarvore\colunas.php on line 8
+[24-Jan-2023 19:09:55 UTC] PHP Fatal error:  Uncaught TypeError: odbc_result(): Argument #1 ($statement) must be of type resource, bool given in C:\inetpub\wwwroot\ClickJSL\novaarvore\colunas.php:9
+Stack trace:
+#0 C:\inetpub\wwwroot\ClickJSL\novaarvore\colunas.php(9): odbc_result(true, 'NMColuna')
+#1 {main}
+  thrown in C:\inetpub\wwwroot\ClickJSL\novaarvore\colunas.php on line 9
+[24-Jan-2023 19:10:17 UTC] PHP Fatal error:  Uncaught TypeError: odbc_result(): Argument #1 ($statement) must be of type resource, bool given in C:\inetpub\wwwroot\ClickJSL\novaarvore\colunas.php:8
+Stack trace:
+#0 C:\inetpub\wwwroot\ClickJSL\novaarvore\colunas.php(8): odbc_result(true, 'NMColuna')
+#1 {main}
+  thrown in C:\inetpub\wwwroot\ClickJSL\novaarvore\colunas.php on line 8
+[24-Jan-2023 19:11:34 UTC] PHP Warning:  Trying to access array offset on value of type bool in C:\inetpub\wwwroot\ClickJSL\novaarvore\colunas.php on line 8
+[24-Jan-2023 19:11:54 UTC] PHP Fatal error:  Uncaught TypeError: Cannot access offset of type string on string in C:\inetpub\wwwroot\ClickJSL\novaarvore\colunas.php:8
+Stack trace:
+#0 {main}
+  thrown in C:\inetpub\wwwroot\ClickJSL\novaarvore\colunas.php on line 8
+[24-Jan-2023 19:12:06 UTC] PHP Warning:  Undefined array key "NMColuna" in C:\inetpub\wwwroot\ClickJSL\novaarvore\colunas.php on line 8
+[24-Jan-2023 19:12:19 UTC] PHP Fatal error:  Uncaught Error: Cannot use object of type stdClass as array in C:\inetpub\wwwroot\ClickJSL\novaarvore\colunas.php:8
+Stack trace:
+#0 {main}
+  thrown in C:\inetpub\wwwroot\ClickJSL\novaarvore\colunas.php on line 8
+[24-Jan-2023 19:12:24 UTC] PHP Warning:  Undefined array key "NMColuna" in C:\inetpub\wwwroot\ClickJSL\novaarvore\colunas.php on line 8
+[24-Jan-2023 19:12:44 UTC] PHP Warning:  Undefined array key "NMColuna" in C:\inetpub\wwwroot\ClickJSL\novaarvore\colunas.php on line 8
+[24-Jan-2023 19:12:44 UTC] PHP Warning:  Undefined variable $titulo2 in C:\inetpub\wwwroot\ClickJSL\novaarvore\colunas.php on line 46
+[24-Jan-2023 19:12:44 UTC] PHP Warning:  Undefined variable $titulo3 in C:\inetpub\wwwroot\ClickJSL\novaarvore\colunas.php on line 79
+[24-Jan-2023 19:12:44 UTC] PHP Warning:  odbc_result(): Field NMColuna not found in C:\inetpub\wwwroot\ClickJSL\novaarvore\colunas.php on line 108
+[24-Jan-2023 19:12:44 UTC] PHP Warning:  odbc_result(): Field NMColuna not found in C:\inetpub\wwwroot\ClickJSL\novaarvore\colunas.php on line 137
+[24-Jan-2023 19:12:44 UTC] PHP Warning:  odbc_result(): Field NMColuna not found in C:\inetpub\wwwroot\ClickJSL\novaarvore\colunas.php on line 166
+[24-Jan-2023 19:12:44 UTC] PHP Warning:  odbc_result(): Field NMColuna not found in C:\inetpub\wwwroot\ClickJSL\novaarvore\colunas.php on line 195
+[24-Jan-2023 19:12:44 UTC] PHP Warning:  odbc_result(): Field NMColuna not found in C:\inetpub\wwwroot\ClickJSL\novaarvore\colunas.php on line 224
+[24-Jan-2023 19:12:44 UTC] PHP Warning:  odbc_result(): Field NMColuna not found in C:\inetpub\wwwroot\ClickJSL\novaarvore\colunas.php on line 253
+[24-Jan-2023 19:12:44 UTC] PHP Warning:  odbc_result(): Field NMColuna not found in C:\inetpub\wwwroot\ClickJSL\novaarvore\colunas.php on line 282
+[24-Jan-2023 19:13:01 UTC] PHP Warning:  Undefined array key "NMColuna" in C:\inetpub\wwwroot\ClickJSL\novaarvore\colunas.php on line 8
+[24-Jan-2023 19:13:28 UTC] PHP Warning:  Attempt to read property "NMColuna" on array in C:\inetpub\wwwroot\ClickJSL\novaarvore\colunas.php on line 8
+[24-Jan-2023 19:13:42 UTC] PHP Warning:  Undefined variable $titulo in C:\inetpub\wwwroot\ClickJSL\novaarvore\colunas.php on line 13
+[24-Jan-2023 19:14:40 UTC] PHP Warning:  Undefined variable $titulo in C:\inetpub\wwwroot\ClickJSL\novaarvore\colunas.php on line 13
+[24-Jan-2023 19:14:40 UTC] PHP Warning:  Undefined variable $titulo2 in C:\inetpub\wwwroot\ClickJSL\novaarvore\colunas.php on line 46
+[24-Jan-2023 19:14:40 UTC] PHP Warning:  Undefined variable $titulo3 in C:\inetpub\wwwroot\ClickJSL\novaarvore\colunas.php on line 79
+[24-Jan-2023 19:14:40 UTC] PHP Warning:  odbc_result(): Field NMColuna not found in C:\inetpub\wwwroot\ClickJSL\novaarvore\colunas.php on line 108
+[24-Jan-2023 19:14:40 UTC] PHP Warning:  odbc_result(): Field NMColuna not found in C:\inetpub\wwwroot\ClickJSL\novaarvore\colunas.php on line 137
+[24-Jan-2023 19:14:40 UTC] PHP Warning:  odbc_result(): Field NMColuna not found in C:\inetpub\wwwroot\ClickJSL\novaarvore\colunas.php on line 166
+[24-Jan-2023 19:14:40 UTC] PHP Warning:  odbc_result(): Field NMColuna not found in C:\inetpub\wwwroot\ClickJSL\novaarvore\colunas.php on line 195
+[24-Jan-2023 19:14:40 UTC] PHP Warning:  odbc_result(): Field NMColuna not found in C:\inetpub\wwwroot\ClickJSL\novaarvore\colunas.php on line 224
+[24-Jan-2023 19:14:40 UTC] PHP Warning:  odbc_result(): Field NMColuna not found in C:\inetpub\wwwroot\ClickJSL\novaarvore\colunas.php on line 253
+[24-Jan-2023 19:14:40 UTC] PHP Warning:  odbc_result(): Field NMColuna not found in C:\inetpub\wwwroot\ClickJSL\novaarvore\colunas.php on line 282
+[24-Jan-2023 19:14:57 UTC] PHP Warning:  Undefined variable $titulo in C:\inetpub\wwwroot\ClickJSL\novaarvore\colunas.php on line 13
+[24-Jan-2023 19:14:57 UTC] PHP Warning:  Undefined variable $titulo2 in C:\inetpub\wwwroot\ClickJSL\novaarvore\colunas.php on line 46
+[24-Jan-2023 19:14:57 UTC] PHP Warning:  Undefined variable $titulo3 in C:\inetpub\wwwroot\ClickJSL\novaarvore\colunas.php on line 79
+[24-Jan-2023 19:14:57 UTC] PHP Warning:  odbc_result(): Field NMColuna not found in C:\inetpub\wwwroot\ClickJSL\novaarvore\colunas.php on line 108
+[24-Jan-2023 19:14:57 UTC] PHP Warning:  odbc_result(): Field NMColuna not found in C:\inetpub\wwwroot\ClickJSL\novaarvore\colunas.php on line 137
+[24-Jan-2023 19:14:57 UTC] PHP Warning:  odbc_result(): Field NMColuna not found in C:\inetpub\wwwroot\ClickJSL\novaarvore\colunas.php on line 166
+[24-Jan-2023 19:14:57 UTC] PHP Warning:  odbc_result(): Field NMColuna not found in C:\inetpub\wwwroot\ClickJSL\novaarvore\colunas.php on line 195
+[24-Jan-2023 19:14:57 UTC] PHP Warning:  odbc_result(): Field NMColuna not found in C:\inetpub\wwwroot\ClickJSL\novaarvore\colunas.php on line 224
+[24-Jan-2023 19:14:57 UTC] PHP Warning:  odbc_result(): Field NMColuna not found in C:\inetpub\wwwroot\ClickJSL\novaarvore\colunas.php on line 253
+[24-Jan-2023 19:14:57 UTC] PHP Warning:  odbc_result(): Field NMColuna not found in C:\inetpub\wwwroot\ClickJSL\novaarvore\colunas.php on line 282
+[24-Jan-2023 19:15:06 UTC] PHP Warning:  Undefined variable $titulo in C:\inetpub\wwwroot\ClickJSL\novaarvore\colunas.php on line 13
+[24-Jan-2023 19:16:43 UTC] PHP Warning:  Undefined variable $titulo in C:\inetpub\wwwroot\ClickJSL\novaarvore\colunas.php on line 13
+[24-Jan-2023 19:16:43 UTC] PHP Warning:  Undefined variable $titulo2 in C:\inetpub\wwwroot\ClickJSL\novaarvore\colunas.php on line 46
+[24-Jan-2023 19:16:43 UTC] PHP Warning:  Undefined variable $titulo3 in C:\inetpub\wwwroot\ClickJSL\novaarvore\colunas.php on line 79
+[24-Jan-2023 19:16:43 UTC] PHP Warning:  odbc_result(): Field NMColuna not found in C:\inetpub\wwwroot\ClickJSL\novaarvore\colunas.php on line 108
+[24-Jan-2023 19:16:43 UTC] PHP Warning:  odbc_result(): Field NMColuna not found in C:\inetpub\wwwroot\ClickJSL\novaarvore\colunas.php on line 137
+[24-Jan-2023 19:16:43 UTC] PHP Warning:  odbc_result(): Field NMColuna not found in C:\inetpub\wwwroot\ClickJSL\novaarvore\colunas.php on line 166
+[24-Jan-2023 19:16:43 UTC] PHP Warning:  odbc_result(): Field NMColuna not found in C:\inetpub\wwwroot\ClickJSL\novaarvore\colunas.php on line 195
+[24-Jan-2023 19:16:43 UTC] PHP Warning:  odbc_result(): Field NMColuna not found in C:\inetpub\wwwroot\ClickJSL\novaarvore\colunas.php on line 224
+[24-Jan-2023 19:16:43 UTC] PHP Warning:  odbc_result(): Field NMColuna not found in C:\inetpub\wwwroot\ClickJSL\novaarvore\colunas.php on line 253
+[24-Jan-2023 19:16:43 UTC] PHP Warning:  odbc_result(): Field NMColuna not found in C:\inetpub\wwwroot\ClickJSL\novaarvore\colunas.php on line 282
+[24-Jan-2023 19:23:12 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in C:\inetpub\wwwroot\ClickJSL\novaarvore\bdarvore.php on line 5
+[24-Jan-2023 19:25:38 UTC] PHP Fatal error:  Uncaught TypeError: count(): Argument #1 ($value) must be of type Countable|array, resource given in C:\inetpub\wwwroot\ClickJSL\novaarvore\colunas.php:36
+Stack trace:
+#0 {main}
+  thrown in C:\inetpub\wwwroot\ClickJSL\novaarvore\colunas.php on line 36
+[24-Jan-2023 19:27:46 UTC] PHP Fatal error:  Uncaught TypeError: count(): Argument #1 ($value) must be of type Countable|array, resource given in C:\inetpub\wwwroot\ClickJSL\novaarvore\colunas.php:36
+Stack trace:
+#0 {main}
+  thrown in C:\inetpub\wwwroot\ClickJSL\novaarvore\colunas.php on line 36
+[25-Jan-2023 02:17:30 UTC] PHP Warning:  Undefined array key "nome" in C:\inetpub\wwwroot\ClickJSL\novaarvore\enviaDados.php on line 10
+[25-Jan-2023 02:17:30 UTC] PHP Fatal error:  Uncaught TypeError: odbc_fetch_row(): Argument #1 ($statement) must be of type resource, bool given in C:\inetpub\wwwroot\ClickJSL\novaarvore\colunas.php:7
+Stack trace:
+#0 C:\inetpub\wwwroot\ClickJSL\novaarvore\colunas.php(7): odbc_fetch_row(true)
+#1 {main}
+  thrown in C:\inetpub\wwwroot\ClickJSL\novaarvore\colunas.php on line 7
+[25-Jan-2023 02:17:30 UTC] PHP Fatal error:  Uncaught TypeError: odbc_fetch_row(): Argument #1 ($statement) must be of type resource, bool given in C:\inetpub\wwwroot\ClickJSL\novaarvore\colunas.php:7
+Stack trace:
+#0 C:\inetpub\wwwroot\ClickJSL\novaarvore\colunas.php(7): odbc_fetch_row(true)
+#1 {main}
+  thrown in C:\inetpub\wwwroot\ClickJSL\novaarvore\colunas.php on line 7
+[25-Jan-2023 02:19:06 UTC] PHP Warning:  Undefined array key "NMColuna" in C:\inetpub\wwwroot\ClickJSL\novaarvore\colunas.php on line 8
+[25-Jan-2023 02:19:23 UTC] PHP Warning:  Undefined variable $c1 in C:\inetpub\wwwroot\ClickJSL\novaarvore\colunas.php on line 8
+[25-Jan-2023 02:19:23 UTC] PHP Fatal error:  Uncaught TypeError: odbc_result(): Argument #1 ($statement) must be of type resource, null given in C:\inetpub\wwwroot\ClickJSL\novaarvore\colunas.php:8
+Stack trace:
+#0 C:\inetpub\wwwroot\ClickJSL\novaarvore\colunas.php(8): odbc_result(NULL, 'NMColuna')
+#1 {main}
+  thrown in C:\inetpub\wwwroot\ClickJSL\novaarvore\colunas.php on line 8
+[25-Jan-2023 02:19:29 UTC] PHP Fatal error:  Uncaught TypeError: odbc_result(): Argument #1 ($statement) must be of type resource, array given in C:\inetpub\wwwroot\ClickJSL\novaarvore\colunas.php:8
+Stack trace:
+#0 C:\inetpub\wwwroot\ClickJSL\novaarvore\colunas.php(8): odbc_result(Array, 'NMColuna')
+#1 {main}
+  thrown in C:\inetpub\wwwroot\ClickJSL\novaarvore\colunas.php on line 8
+[25-Jan-2023 02:19:42 UTC] PHP Fatal error:  Uncaught TypeError: odbc_result(): Argument #1 ($statement) must be of type resource, bool given in C:\inetpub\wwwroot\ClickJSL\novaarvore\colunas.php:8
+Stack trace:
+#0 C:\inetpub\wwwroot\ClickJSL\novaarvore\colunas.php(8): odbc_result(true, 'NMColuna')
+#1 {main}
+  thrown in C:\inetpub\wwwroot\ClickJSL\novaarvore\colunas.php on line 8
+[25-Jan-2023 02:20:23 UTC] PHP Fatal error:  Uncaught TypeError: odbc_result(): Argument #1 ($statement) must be of type resource, bool given in C:\inetpub\wwwroot\ClickJSL\novaarvore\colunas.php:8
+Stack trace:
+#0 C:\inetpub\wwwroot\ClickJSL\novaarvore\colunas.php(8): odbc_result(true, 'NMColuna')
+#1 {main}
+  thrown in C:\inetpub\wwwroot\ClickJSL\novaarvore\colunas.php on line 8
+[25-Jan-2023 02:20:32 UTC] PHP Fatal error:  Uncaught TypeError: odbc_result(): Argument #1 ($statement) must be of type resource, bool given in C:\inetpub\wwwroot\ClickJSL\novaarvore\colunas.php:8
+Stack trace:
+#0 C:\inetpub\wwwroot\ClickJSL\novaarvore\colunas.php(8): odbc_result(true, 'NMColuna')
+#1 {main}
+  thrown in C:\inetpub\wwwroot\ClickJSL\novaarvore\colunas.php on line 8
+[25-Jan-2023 02:22:47 UTC] PHP Fatal error:  Uncaught TypeError: odbc_result(): Argument #1 ($statement) must be of type resource, bool given in C:\inetpub\wwwroot\ClickJSL\novaarvore\colunas.php:8
+Stack trace:
+#0 C:\inetpub\wwwroot\ClickJSL\novaarvore\colunas.php(8): odbc_result(true, 'NMColuna')
+#1 {main}
+  thrown in C:\inetpub\wwwroot\ClickJSL\novaarvore\colunas.php on line 8
+[25-Jan-2023 02:23:02 UTC] PHP Fatal error:  Uncaught TypeError: odbc_result(): Argument #1 ($statement) must be of type resource, bool given in C:\inetpub\wwwroot\ClickJSL\novaarvore\colunas.php:8
+Stack trace:
+#0 C:\inetpub\wwwroot\ClickJSL\novaarvore\colunas.php(8): odbc_result(true, 'NMColuna')
+#1 {main}
+  thrown in C:\inetpub\wwwroot\ClickJSL\novaarvore\colunas.php on line 8
+[25-Jan-2023 02:25:47 UTC] PHP Fatal error:  Uncaught TypeError: odbc_result(): Argument #1 ($statement) must be of type resource, bool given in C:\inetpub\wwwroot\ClickJSL\novaarvore\colunas.php:8
+Stack trace:
+#0 C:\inetpub\wwwroot\ClickJSL\novaarvore\colunas.php(8): odbc_result(true, 'NMColuna')
+#1 {main}
+  thrown in C:\inetpub\wwwroot\ClickJSL\novaarvore\colunas.php on line 8
+[25-Jan-2023 02:26:18 UTC] PHP Fatal error:  Uncaught TypeError: odbc_result(): Argument #1 ($statement) must be of type resource, array given in C:\inetpub\wwwroot\ClickJSL\novaarvore\colunas.php:8
+Stack trace:
+#0 C:\inetpub\wwwroot\ClickJSL\novaarvore\colunas.php(8): odbc_result(Array, 'NMColuna')
+#1 {main}
+  thrown in C:\inetpub\wwwroot\ClickJSL\novaarvore\colunas.php on line 8
+[25-Jan-2023 02:26:31 UTC] PHP Fatal error:  Uncaught TypeError: odbc_result(): Argument #1 ($statement) must be of type resource, stdClass given in C:\inetpub\wwwroot\ClickJSL\novaarvore\colunas.php:8
+Stack trace:
+#0 C:\inetpub\wwwroot\ClickJSL\novaarvore\colunas.php(8): odbc_result(Object(stdClass), 'NMColuna')
+#1 {main}
+  thrown in C:\inetpub\wwwroot\ClickJSL\novaarvore\colunas.php on line 8
+[25-Jan-2023 02:36:43 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function odbcfetch_row() in C:\inetpub\wwwroot\ClickJSL\novaarvore\colunas.php:182
+Stack trace:
+#0 {main}
+  thrown in C:\inetpub\wwwroot\ClickJSL\novaarvore\colunas.php on line 182
+[25-Jan-2023 03:03:05 UTC] PHP Warning:  Undefined array key "nome" in C:\inetpub\wwwroot\ClickJSL\novaarvore\enviaDados.php on line 10
+[25-Jan-2023 03:08:26 UTC] PHP Warning:  Undefined array key "nome" in C:\inetpub\wwwroot\ClickJSL\novaarvore\enviaDados.php on line 10
+[25-Jan-2023 03:08:29 UTC] PHP Warning:  Undefined array key "nome" in C:\inetpub\wwwroot\ClickJSL\novaarvore\enviaDados.php on line 10
+[25-Jan-2023 03:08:37 UTC] PHP Warning:  Undefined array key "nome" in C:\inetpub\wwwroot\ClickJSL\novaarvore\enviaDados.php on line 10
+[25-Jan-2023 03:08:39 UTC] PHP Warning:  Undefined array key "nome" in C:\inetpub\wwwroot\ClickJSL\novaarvore\enviaDados.php on line 10
+[25-Jan-2023 03:59:48 UTC] PHP Warning:  Undefined array key "numero" in C:\inetpub\wwwroot\ClickJSL\novaarvore\enviaDados.php on line 11
+[25-Jan-2023 04:01:15 UTC] PHP Warning:  Undefined array key "numero" in C:\inetpub\wwwroot\ClickJSL\novaarvore\enviaDados.php on line 11
+[25-Jan-2023 04:02:07 UTC] PHP Warning:  Undefined array key "numero" in C:\inetpub\wwwroot\ClickJSL\novaarvore\enviaDados.php on line 11
+[25-Jan-2023 04:24:09 UTC] PHP Warning:  Undefined array key "IDColuna" in C:\inetpub\wwwroot\ClickJSL\novaarvore\enviaDados.php on line 12
+[25-Jan-2023 04:41:25 UTC] PHP Warning:  Undefined array key "IDColuna" in C:\inetpub\wwwroot\ClickJSL\novaarvore\enviaDados.php on line 12
+[25-Jan-2023 05:04:17 UTC] PHP Warning:  Undefined array key "IDOco" in C:\inetpub\wwwroot\ClickJSL\novaarvore\colunas.php on line 6
+[25-Jan-2023 05:04:17 UTC] PHP Warning:  Undefined array key "IDOco" in C:\inetpub\wwwroot\ClickJSL\novaarvore\colunas.php on line 38
+[25-Jan-2023 05:04:17 UTC] PHP Warning:  Undefined array key "IDOco" in C:\inetpub\wwwroot\ClickJSL\novaarvore\colunas.php on line 70
+[25-Jan-2023 05:04:17 UTC] PHP Warning:  Undefined array key "IDOco" in C:\inetpub\wwwroot\ClickJSL\novaarvore\colunas.php on line 102
+[25-Jan-2023 05:04:17 UTC] PHP Warning:  Undefined array key "IDOco" in C:\inetpub\wwwroot\ClickJSL\novaarvore\colunas.php on line 134
+[25-Jan-2023 05:04:17 UTC] PHP Warning:  Undefined array key "IDOco" in C:\inetpub\wwwroot\ClickJSL\novaarvore\colunas.php on line 166
+[25-Jan-2023 05:04:17 UTC] PHP Warning:  Undefined array key "IDOco" in C:\inetpub\wwwroot\ClickJSL\novaarvore\colunas.php on line 198
+[25-Jan-2023 05:04:17 UTC] PHP Warning:  Undefined array key "IDOco" in C:\inetpub\wwwroot\ClickJSL\novaarvore\colunas.php on line 230
+[25-Jan-2023 05:04:17 UTC] PHP Warning:  Undefined array key "IDOco" in C:\inetpub\wwwroot\ClickJSL\novaarvore\colunas.php on line 262
+[25-Jan-2023 05:04:17 UTC] PHP Warning:  Undefined array key "IDOco" in C:\inetpub\wwwroot\ClickJSL\novaarvore\colunas.php on line 294
+[25-Jan-2023 05:04:33 UTC] PHP Warning:  Undefined array key "IDColuna" in C:\inetpub\wwwroot\ClickJSL\novaarvore\enviaDados.php on line 12
+[25-Jan-2023 05:10:11 UTC] PHP Warning:  Undefined array key "IDColuna" in C:\inetpub\wwwroot\ClickJSL\novaarvore\enviaDados.php on line 12
+[25-Jan-2023 05:10:37 UTC] PHP Warning:  Undefined array key "IDColuna" in C:\inetpub\wwwroot\ClickJSL\novaarvore\enviaDados.php on line 12
+[25-Jan-2023 05:24:25 UTC] PHP Warning:  Undefined array key "IDColuna" in C:\inetpub\wwwroot\ClickJSL\novaarvore\enviaDados.php on line 12
+[25-Jan-2023 05:24:50 UTC] PHP Warning:  Undefined array key "IDColuna" in C:\inetpub\wwwroot\ClickJSL\novaarvore\enviaDados.php on line 12
+[30-Jan-2023 01:46:46 UTC] PHP Warning:  Undefined array key "IDOco" in C:\inetpub\wwwroot\ClickJSL\novaarvore\colunas.php on line 6
+[30-Jan-2023 01:46:46 UTC] PHP Warning:  Undefined array key "IDOco" in C:\inetpub\wwwroot\ClickJSL\novaarvore\colunas.php on line 38
+[30-Jan-2023 01:46:46 UTC] PHP Warning:  Undefined array key "IDOco" in C:\inetpub\wwwroot\ClickJSL\novaarvore\colunas.php on line 70
+[30-Jan-2023 01:46:46 UTC] PHP Warning:  Undefined array key "IDOco" in C:\inetpub\wwwroot\ClickJSL\novaarvore\colunas.php on line 102
+[30-Jan-2023 01:46:46 UTC] PHP Warning:  Undefined array key "IDOco" in C:\inetpub\wwwroot\ClickJSL\novaarvore\colunas.php on line 134
+[30-Jan-2023 01:46:46 UTC] PHP Warning:  Undefined array key "IDOco" in C:\inetpub\wwwroot\ClickJSL\novaarvore\colunas.php on line 166
+[30-Jan-2023 01:46:46 UTC] PHP Warning:  Undefined array key "IDOco" in C:\inetpub\wwwroot\ClickJSL\novaarvore\colunas.php on line 198
+[30-Jan-2023 01:46:46 UTC] PHP Warning:  Undefined array key "IDOco" in C:\inetpub\wwwroot\ClickJSL\novaarvore\colunas.php on line 230
+[30-Jan-2023 01:46:46 UTC] PHP Warning:  Undefined array key "IDOco" in C:\inetpub\wwwroot\ClickJSL\novaarvore\colunas.php on line 262
+[30-Jan-2023 01:46:46 UTC] PHP Warning:  Undefined array key "IDOco" in C:\inetpub\wwwroot\ClickJSL\novaarvore\colunas.php on line 294
